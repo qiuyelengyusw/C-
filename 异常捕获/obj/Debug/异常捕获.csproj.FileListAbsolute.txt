@@ -1,0 +1,7 @@
+D:\C#\异常捕获\bin\Debug\异常捕获.exe.config
+D:\C#\异常捕获\bin\Debug\异常捕获.exe
+D:\C#\异常捕获\bin\Debug\异常捕获.pdb
+D:\C#\异常捕获\obj\Debug\异常捕获.csproj.AssemblyReference.cache
+D:\C#\异常捕获\obj\Debug\异常捕获.csproj.CoreCompileInputs.cache
+D:\C#\异常捕获\obj\Debug\异常捕获.exe
+D:\C#\异常捕获\obj\Debug\异常捕获.pdb

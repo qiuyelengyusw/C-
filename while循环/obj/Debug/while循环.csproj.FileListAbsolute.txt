@@ -1,0 +1,7 @@
+D:\C#\while循环\bin\Debug\while循环.exe.config
+D:\C#\while循环\bin\Debug\while循环.exe
+D:\C#\while循环\bin\Debug\while循环.pdb
+D:\C#\while循环\obj\Debug\while循环.csproj.AssemblyReference.cache
+D:\C#\while循环\obj\Debug\while循环.csproj.CoreCompileInputs.cache
+D:\C#\while循环\obj\Debug\while循环.exe
+D:\C#\while循环\obj\Debug\while循环.pdb
