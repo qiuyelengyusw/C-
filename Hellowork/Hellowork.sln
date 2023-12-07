@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "while循环", "..\while循�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "while循环联系一", "..\while循环联系一\while循环联系一.csproj", "{0516AEEB-0F55-41F0-B8A0-B87BCADD0112}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "while循环练习二", "..\while循环练习二\while循环练习二.csproj", "{0130E16E-08A2-4CB4-A3DB-CB84595AD06A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "while循环联系之异常捕获", "..\while循环联系之异常捕获\while循环联系之异常捕获.csproj", "{327A4776-5639-4CD1-8953-65F5A0525A17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{0516AEEB-0F55-41F0-B8A0-B87BCADD0112}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0516AEEB-0F55-41F0-B8A0-B87BCADD0112}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0516AEEB-0F55-41F0-B8A0-B87BCADD0112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0130E16E-08A2-4CB4-A3DB-CB84595AD06A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0130E16E-08A2-4CB4-A3DB-CB84595AD06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0130E16E-08A2-4CB4-A3DB-CB84595AD06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0130E16E-08A2-4CB4-A3DB-CB84595AD06A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{327A4776-5639-4CD1-8953-65F5A0525A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327A4776-5639-4CD1-8953-65F5A0525A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327A4776-5639-4CD1-8953-65F5A0525A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327A4776-5639-4CD1-8953-65F5A0525A17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

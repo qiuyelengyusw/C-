@@ -25,7 +25,7 @@ namespace while循环联系一
                 Console.WriteLine("请重新输入密码：");
                 strPassword = Console.ReadLine();   
             }
-            Console.WriteLine("输入正确，欢迎登录！");
+            Console.WriteLine("输入正确，登陆成功！");
         }
     }
 }
