@@ -11,18 +11,36 @@ namespace while循环联系之异常捕获
         static void Main(string[] args)
         {
             int intNumber = 0;
-            int intSum = 0;
-            int i = 1;
-            Console.WriteLine("请输入班级人数：");
-            try
+            //int intSum = 0;
+           // int i = 1;
+            int j;
+            bool b =true;
+            Console.WriteLine("Please input your class number:");
+            
+            while(b) 
             {
-                intNumber = int.Parse(Console.ReadLine());
+                string strNumber = Console.ReadLine();
+                if (int.TryParse(strNumber, out j))
+                {
+                    if (int.Parse(strNumber) != 0)
+                    {
+                        intNumber = int.Parse(strNumber);
+                        Console.WriteLine("The class number is:{0}", intNumber);
+                        b = false;
+                    }
+                    else
+                    {
+                        Console.WriteLine("The class's number can't be zero,Please input again：");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("The input format is incorrect，This only input a correct number：");
+                }
             }
-            catch (FormatException ex)
-            {
-                Console.WriteLine(ex.Message+ "请输入一个数字：");
-            }
-            Console.WriteLine("输入正确");
+                
+            
+           // Console.ReadKey();
             //try
             //{
             //    Console.WriteLine("Enter a number to divide 100: ");
