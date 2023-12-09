@@ -16,8 +16,7 @@ namespace while循环联系之异常捕获
             int i = 1;        //定义一个初始值为0的整型变量，用做循环变量；
             int j;            //定义一个初始值为0的整型变量，用于返回判断输入格式的返回值；
             int k = 1;          //定义一个初始值为0的整型变量，用做循环变量；
-            bool b = true;        ////定义一个初始值为true的布尔型变量，用做循环条件；    
-            bool c = true;
+            bool b = true;        ////定义一个初始值为true的布尔型变量，用做循环条件；              
             Console.WriteLine("Please input your class number:");           //请用户输入班级的人数； 
             while (b) //此循环语句的作用是判断用户输入的内容格式是否正确
             {
