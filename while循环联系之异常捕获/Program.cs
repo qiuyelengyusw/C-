@@ -16,9 +16,10 @@ namespace while循环联系之异常捕获
             int i = 1;        //定义一个初始值为0的整型变量，用做循环变量；
             int j;            //定义一个初始值为0的整型变量，用于返回判断输入格式的返回值；
             int k = 1;          //定义一个初始值为0的整型变量，用做循环变量；
-            bool b =true;        ////定义一个初始值为true的布尔型变量，用做循环条件；    
+            bool b = true;        ////定义一个初始值为true的布尔型变量，用做循环条件；    
+            bool c = true;
             Console.WriteLine("Please input your class number:");           //请用户输入班级的人数； 
-            while(b) //此循环语句的作用是判断用户输入的内容格式是否正确
+            while (b) //此循环语句的作用是判断用户输入的内容格式是否正确
             {
                 string strNumber = Console.ReadLine();//将用户输入的班级人数赋值给字符串变量strNumber；
                 if (int.TryParse(strNumber, out j))  //判断用户输入的内容是否能转换为整型变量；
@@ -42,28 +43,30 @@ namespace while循环联系之异常捕获
 
             while (i <= intNumber) //循环条件是i小于或者等于班级的人数；
             {
-                Console.WriteLine("Please input the number{0} grades",i); //请用户输入第i个同学的成绩；
-                while (k<=i)    //循环的嵌套，只有在满足k<=i的时候执行，用于累加学生的成绩；
-                {
-                    string  strGrades = Console.ReadLine();  //将用户输入的第i个同学的成绩赋值给变量；
-                    if (int.TryParse(strGrades, out j))   //判断用户输入的内容是否能转换为整型变量；
-                    {
-                        if (int.Parse(strGrades) >= 0)   //如果用户输入的内容可以转换为整型变量，则还需要判断用户输入的内容是否在合理的范围之内；
+                Console.WriteLine("Please input the number{0} grades", i); //请用户输入第i个同学的成绩；
+                while (k <= i)    //循环的嵌套，只有在满足k<=i的时候执行，用于累加学生的成绩；
+                {                   
+                        string strGrades = Console.ReadLine();  //将用户输入的第i个同学的成绩赋值给变量；
+                        if (int.TryParse(strGrades, out j))   //判断用户输入的内容是否能转换为整型变量；
                         {
-                            intgrades = int.Parse(strGrades); //如果这两个条件都满足，则将用户输入的内容转换成整型变量并赋值给整型变量
-                            intSum += intgrades;               //将同学的成绩通过循环体累加，计算班级总成绩；                                       
+                            if (int.Parse(strGrades) >= 0)   //如果用户输入的内容可以转换为整型变量，则还需要判断用户输入的内容是否在合理的范围之内；
+                            {
+                                intgrades = int.Parse(strGrades); //如果这两个条件都满足，则将用户输入的内容转换成整型变量并赋值给整型变量
+                                intSum += intgrades;               //将同学的成绩通过循环体累加，计算班级总成绩；
+                                k++; //将循环条件变量加1，继续判断循环条件；                              
+                            }
+                            else
+                            {
+                                Console.WriteLine("The grades cant't less than zero! Plesse input again:");//如果用户输入的内容不在合理范围之内，则输入错误提示；
+                            }
                         }
-                        else 
+                        else
                         {
-                            Console.WriteLine("The grades cant't less than zero! Plesse input again:");//如果用户输入的内容不在合理范围之内，则输入错误提示；
-                        }                           
-                    }
-                    else 
-                    {
-                        Console.WriteLine("he input format is incorrect，This only input a correct number："); //如果用户输入的内容不能够转换为整型变量，则输出错误提示；
-                    }
-                    k++; //将循环条件变量加1，继续判断循环条件；
+                            Console.WriteLine("The input format is incorrect，This only input a correct number："); //如果用户输入的内容不能够转换为整型变量，则输出错误提示；
+                        }               
+
                 }
+
                 i++; //将循环条件变量加1，继续判断循环条件；
             }
             Console.WriteLine("This class's Grade is :{0}", intSum); //将计算得出的总成绩输出到控制台；
