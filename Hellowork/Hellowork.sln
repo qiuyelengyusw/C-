@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "while循环练习二", "..\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "while循环联系之异常捕获", "..\while循环联系之异常捕获\while循环联系之异常捕获.csproj", "{327A4776-5639-4CD1-8953-65F5A0525A17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "判断闰年", "..\判断闰年\判断闰年.csproj", "{B4A5D0BC-3F00-47C1-83CA-D2E94C163D7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{327A4776-5639-4CD1-8953-65F5A0525A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{327A4776-5639-4CD1-8953-65F5A0525A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{327A4776-5639-4CD1-8953-65F5A0525A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4A5D0BC-3F00-47C1-83CA-D2E94C163D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A5D0BC-3F00-47C1-83CA-D2E94C163D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A5D0BC-3F00-47C1-83CA-D2E94C163D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A5D0BC-3F00-47C1-83CA-D2E94C163D7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
