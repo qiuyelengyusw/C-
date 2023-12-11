@@ -10,12 +10,14 @@ namespace 比较三个数字的大小2
     {
         static void Main(string[] args)
         {
+            #region MyRegion
             Console.WriteLine("请输入第一个数字：");
-            int numberOne=Convert.ToInt32(Console.ReadLine());
+            int numberOne = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("请输入第二个数字：");
-            int numberTwo=Convert.ToInt32(Console.ReadLine());
+            int numberTwo = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("请输入第三个数字：");
-            int numberThree=Convert.ToInt32(Console.ReadLine());
+            int numberThree = Convert.ToInt32(Console.ReadLine()); 
+            #endregion
             if (numberOne > numberTwo)
             {
                 if (numberOne > numberThree)
