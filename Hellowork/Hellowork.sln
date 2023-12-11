@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "while循环联系之异常�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "判断闰年", "..\判断闰年\判断闰年.csproj", "{B4A5D0BC-3F00-47C1-83CA-D2E94C163D7C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "比较三个数字的大小", "..\比较三个数字的大小\比较三个数字的大小.csproj", "{74482F85-E141-4FF4-BC96-48DB911B0DB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "比较三个数字的大小2", "..\比较三个数字的大小2\比较三个数字的大小2.csproj", "{F2BC8B82-48E2-48DD-BB05-4C8362346405}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{B4A5D0BC-3F00-47C1-83CA-D2E94C163D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4A5D0BC-3F00-47C1-83CA-D2E94C163D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4A5D0BC-3F00-47C1-83CA-D2E94C163D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74482F85-E141-4FF4-BC96-48DB911B0DB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74482F85-E141-4FF4-BC96-48DB911B0DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74482F85-E141-4FF4-BC96-48DB911B0DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74482F85-E141-4FF4-BC96-48DB911B0DB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2BC8B82-48E2-48DD-BB05-4C8362346405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2BC8B82-48E2-48DD-BB05-4C8362346405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2BC8B82-48E2-48DD-BB05-4C8362346405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2BC8B82-48E2-48DD-BB05-4C8362346405}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
