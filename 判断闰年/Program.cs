@@ -47,7 +47,7 @@ namespace 判断闰年
 
             }
             Console.WriteLine("感谢使用，请按任意键退出程序！");//程序推出提示
-            Console.ReadKey();
+            Console.ReadKey();  //暂停程序，等待用户按下任意键退出程序
         }
     }
 }
