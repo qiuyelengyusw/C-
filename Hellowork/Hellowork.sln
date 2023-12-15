@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "比较三个数字的大小
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "do-while循环", "..\do-while循环\do-while循环.csproj", "{68AA1E86-5817-43EC-A157-D1455286B010}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "while循环复习", "..\while循环复习\while循环复习.csproj", "{E65F8F7A-DC2C-4C0C-8213-CBAEB5905AE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{68AA1E86-5817-43EC-A157-D1455286B010}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68AA1E86-5817-43EC-A157-D1455286B010}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68AA1E86-5817-43EC-A157-D1455286B010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E65F8F7A-DC2C-4C0C-8213-CBAEB5905AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E65F8F7A-DC2C-4C0C-8213-CBAEB5905AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E65F8F7A-DC2C-4C0C-8213-CBAEB5905AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E65F8F7A-DC2C-4C0C-8213-CBAEB5905AE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
