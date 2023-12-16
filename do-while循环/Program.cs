@@ -15,7 +15,7 @@ namespace do_while循环
             {
                 Console.WriteLine("我回答的正确吗？");
                 strAnser = Console.ReadLine();  
-            } while (strAnser!="yes");
+            } while (strAnser!="yes"); //循环条件是用户输入的内容不是"yes"的情况下，执行循环体
             Console.ReadKey();
         }
     }
