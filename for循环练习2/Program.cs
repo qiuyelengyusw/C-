@@ -10,7 +10,7 @@ namespace for循环练习2
     {
         static void Main(string[] args)
         {
-            int intNumber;           //定义一个int型变量，用来存储用户输入转变类型哈偶的数字
+            int intNumber;           //定义一个int型变量，用来存储用户输入转变类型后的数字
             string strNumber;        //定义一个字符串变量，用来存储用户初始输入   
             while (true)    //此循环语句的作用是用来判断用户输入的内容是否合法
             {
