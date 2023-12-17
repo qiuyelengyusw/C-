@@ -26,10 +26,8 @@ namespace for循环的练习1
                     intSumodd += i; 
                 }
             }
-            Console.WriteLine("1到100之间\n所有整数的和是：{0}\n所有偶数的和是：{1}\n所有奇数的和是：{2}",intSum,intSumeven,intSumodd);  
-            
+            Console.WriteLine("1到100之间\n所有整数的和是：{0}\n所有偶数的和是：{1}\n所有奇数的和是：{2}",intSum,intSumeven,intSumodd);              
             Console.ReadKey();
-
         }
     }
 }
