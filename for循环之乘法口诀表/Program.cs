@@ -15,9 +15,9 @@ namespace for循环之乘法口诀表
 
                 for (int j = 1; j<= i; j++)
                 {
-                    Console.Write("{0}*{1}={2}\t",j,i,i*j);                   
+                    Console.Write("{0}*{1}={2}\t",j,i,i*j);    //Console.Write()语句是只输出不换行               
                 }
-                Console.WriteLine();
+                Console.WriteLine();//这里用Consoe.Writeline()语句的作用是当每列的口诀输出后，换行
             }
             Console.ReadKey();
         }
