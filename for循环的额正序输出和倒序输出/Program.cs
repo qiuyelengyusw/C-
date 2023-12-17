@@ -17,7 +17,7 @@ namespace for循环的额正序输出和倒序输出
                 Console.WriteLine(i);
             }
             #endregion
-            for (int i = 100; i > 0; i--)
+            for (int i = 99; i > 0; i--)
             {
                 Console.WriteLine(i);
             }
