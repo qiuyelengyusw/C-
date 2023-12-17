@@ -40,7 +40,7 @@ namespace while循环联系之异常捕获
                 }
             }
 
-            while (i <= intNumber) //循环条件是i小于或者等于班级的人数；
+            while (i <= intNumber) //循环条件是i小于或者等于班级的人数;
             {
                 Console.WriteLine("Please input the number{0} grades", i); //请用户输入第i个同学的成绩；
                 while (k <= i)    //循环的嵌套，只有在满足k<=i的时候执行，用于累加学生的成绩；
@@ -70,7 +70,7 @@ namespace while循环联系之异常捕获
             }
             Console.WriteLine("This class's Grade is :{0}", intSum); //将计算得出的总成绩输出到控制台；
             Console.WriteLine("And This class's Grade point average is {0}", intSum / intNumber); //计算平均成绩
-            Console.WriteLine("Thanks"); //程序结束
+            Console.WriteLine("Thanks"); //程序结束!
             // Console.ReadKey();
             //try
             //{
