@@ -70,33 +70,7 @@ namespace while循环联系之异常捕获
             }
             Console.WriteLine("This class's Grade is :{0}", intSum); //将计算得出的总成绩输出到控制台；
             Console.WriteLine("And This class's Grade point average is {0}", intSum / intNumber); //计算平均成绩
-            Console.WriteLine("Thanks"); //程序结束!
-            // Console.ReadKey();
-            //try
-            //{
-            //    Console.WriteLine("Enter a number to divide 100: ");
-            //    int divisor = Convert.ToInt32(Console.ReadLine());
-            //    int result = 100 / divisor;
-            //    Console.WriteLine("Result is: " + result);
-            //}
-            //catch (DivideByZeroException )
-            //{
-            //    Console.WriteLine("Cannot divide by zero. Please try again.");
-            //}
-            //catch (FormatException )
-            //{
-            //    Console.WriteLine("That's not a valid number. Please try again.");
-            //}
-            //catch (Exception ex)
-            //{
-            //    Console.WriteLine($"An unexpected error occurred: {ex.Message}");
-            //    throw; // 可以选择重新抛出异常
-            //}
-            //finally
-            //{
-            //    // 这里的代码不管是否发生异常都会执行
-            //    Console.WriteLine("Thanks for using our program.");
-            //}
+            Console.WriteLine("Thanks"); //程序结束!           
             Console.ReadKey();
 
         }
