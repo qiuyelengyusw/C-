@@ -18,7 +18,7 @@ namespace while循环联系之异常捕获
             int k = 1;          //定义一个初始值为0的整型变量，用做循环变量；
             bool b = true;        ////定义一个初始值为true的布尔型变量，用做循环条件；              
             Console.WriteLine("Please input your class number:");           //请用户输入班级的人数； 
-            while (b) //此循环语句的作用是判断用户输入的内容格式是否正确
+            while (b) //此循环语句的作用是判断用户输入的内容格式是否正确,如果用户输入的格式或者范围错误，则提示用户重新输入
             {
                 string strNumber = Console.ReadLine();//将用户输入的班级人数赋值给字符串变量strNumber；
                 if (int.TryParse(strNumber, out j))  //判断用户输入的内容是否能转换为整型变量；
