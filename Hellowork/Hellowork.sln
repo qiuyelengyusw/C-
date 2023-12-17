@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "for循环的额正序输出
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "for循环的练习1", "..\for循环的练习1\for循环的练习1.csproj", "{A4C551B3-CF54-4F79-B004-695E001B5922}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "for循环之乘法口诀表", "..\for循环之乘法口诀表\for循环之乘法口诀表.csproj", "{3DC65591-0AB8-4048-859F-89FD76E6F533}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{A4C551B3-CF54-4F79-B004-695E001B5922}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4C551B3-CF54-4F79-B004-695E001B5922}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4C551B3-CF54-4F79-B004-695E001B5922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC65591-0AB8-4048-859F-89FD76E6F533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC65591-0AB8-4048-859F-89FD76E6F533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC65591-0AB8-4048-859F-89FD76E6F533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC65591-0AB8-4048-859F-89FD76E6F533}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
