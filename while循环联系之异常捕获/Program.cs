@@ -65,7 +65,6 @@ namespace while循环联系之异常捕获
                         }               
 
                 }
-
                 i++; //将循环条件变量加1，继续判断循环条件；
             }
             Console.WriteLine("This class's Grade is :{0}", intSum); //将计算得出的总成绩输出到控制台；
