@@ -11,7 +11,7 @@ namespace for循环的额正序输出和倒序输出
         static void Main(string[] args)
         {
             #region 打印输出1到100
-            for (int i = 1; i < 101; i++)
+            for (int i = 1; i < 101; i++) //正序打印输出
 
             {
                 Console.WriteLine(i);
