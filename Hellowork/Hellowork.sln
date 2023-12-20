@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "while循环之异常捕获0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "while循环之乘法口诀", "..\while循环之乘法口诀\while循环之乘法口诀.csproj", "{77A0DEFF-B65E-4E84-87AD-9891F5A4CB1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "while-continue循环练习", "..\while-continue循环练习\while-continue循环练习.csproj", "{4C0448A6-A6C2-4E85-B106-37CCC26704D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{77A0DEFF-B65E-4E84-87AD-9891F5A4CB1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77A0DEFF-B65E-4E84-87AD-9891F5A4CB1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77A0DEFF-B65E-4E84-87AD-9891F5A4CB1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C0448A6-A6C2-4E85-B106-37CCC26704D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0448A6-A6C2-4E85-B106-37CCC26704D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0448A6-A6C2-4E85-B106-37CCC26704D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0448A6-A6C2-4E85-B106-37CCC26704D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
