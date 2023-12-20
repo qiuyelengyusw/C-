@@ -10,7 +10,7 @@ namespace while_continue循环练习
     {
         static void Main(string[] args)
         {
-            int intNumber = 1;
+           // int intNumber = 1;
             int intSum = 0;
 
             //下面使用while循环实现1到100之间，不能被7整除的所有整数的和
