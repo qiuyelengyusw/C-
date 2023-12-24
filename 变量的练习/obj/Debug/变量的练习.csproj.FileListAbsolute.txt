@@ -5,3 +5,10 @@ D:\C#\变量的练习\obj\Debug\变量的练习.csproj.AssemblyReference.cache
 D:\C#\变量的练习\obj\Debug\变量的练习.csproj.CoreCompileInputs.cache
 D:\C#\变量的练习\obj\Debug\变量的练习.exe
 D:\C#\变量的练习\obj\Debug\变量的练习.pdb
+D:\MyCSaharpCode\C-\变量的练习\bin\Debug\变量的练习.exe.config
+D:\MyCSaharpCode\C-\变量的练习\bin\Debug\变量的练习.exe
+D:\MyCSaharpCode\C-\变量的练习\bin\Debug\变量的练习.pdb
+D:\MyCSaharpCode\C-\变量的练习\obj\Debug\变量的练习.csproj.AssemblyReference.cache
+D:\MyCSaharpCode\C-\变量的练习\obj\Debug\变量的练习.csproj.CoreCompileInputs.cache
+D:\MyCSaharpCode\C-\变量的练习\obj\Debug\变量的练习.exe
+D:\MyCSaharpCode\C-\变量的练习\obj\Debug\变量的练习.pdb
