@@ -28,11 +28,56 @@ namespace 数组的应用练习
                 }
                 sum += numsOne[i];
             }
-            Average =(double) sum / numsOne.Length;
+            Average = (double)sum / numsOne.Length;
             Console.WriteLine("这个数组中最大的值是:{0}", max);
             Console.WriteLine("这个数组中最小的值是:{0}", min);
             Console.WriteLine("这个数组中所有数的总和是：{0}", sum);
             Console.WriteLine("这个数组中的平均值为：{0}", Average);
+            Console.ReadKey();
+            #endregion
+            Console.WriteLine("------------------------------------------------"); //输出空行以便于分割练习二
+            #region 练习二
+            string[] strName = { "钢铁侠", "蜘蛛侠", "绿巨人", "美国队长", "黑寡妇", "鹰眼" };
+            string strName1 = null;
+            for (int i = 0; i < strName.Length - 1; i++)
+            {
+                strName1 += strName[i] + "|";
+            }
+            strName1 += strName[strName.Length - 1];
+            Console.WriteLine(strName1);
+            Console.ReadKey();
+            #endregion
+            Console.WriteLine("------------------------------------------------");
+            #region 练习三:将一个整数数组的每一个元素进行如下的处理:如果元素是正数则将这个位置的元素的值加1，如果元素是负数则将这个位置的元素的值减1,如果元素是0,则不变
+            int[] nums = { 1, 2, 3, 4, 5, -2, -6, -7, 0 };
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] > 0)
+                {
+                    nums[i] += 1;
+                }
+                if (nums[i] < 0)
+                {
+                    nums[i] -= 1;
+                }
+                Console.Write(nums[i] + " ");
+            }
+            Console.ReadKey();
+            #endregion
+            Console.WriteLine("------------------------------------------------");
+            #region 练习四：将一个字符串数组内的元素进行反转
+            string[] strA = { "钢铁侠","蜘蛛侠","美国队长","绿巨人","创世","分红女巫","黑寡妇","鹰眼" };
+            string strB = null;
+            for (int i = 0; i < strA.Length / 2; i++) //strA.Length /2 表示数组中元素如果反转，只需要对换的次数是数组中元素个数的1/2
+            {
+                strB = strA[i];
+                strA[i] = strA[strA.Length - 1 - i];
+                strA[strA.Length - 1 - i] = strB;                
+            }
+            for (int i = 0; i < strA.Length; i++)
+            {
+                Console.Write(strA[i]+" ");
+            }
             Console.ReadKey();
             #endregion
         }
