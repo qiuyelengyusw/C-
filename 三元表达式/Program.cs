@@ -33,7 +33,7 @@ namespace 三元表达式
             Console.WriteLine("你的姓名：");
             string  strName = Console.ReadLine();
 
-            string strName1 = strName == "生威" ? "天才" : "SB";
+            string strName1 = strName == "生威" ? "天才" : "蠢材";
             Console.WriteLine(strName1);
             Console.ReadKey();
         }
