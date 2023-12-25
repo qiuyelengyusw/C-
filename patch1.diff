@@ -1,0 +1,55 @@
+From af6583e12128079c9efd2a893c3aee56f101b387 Mon Sep 17 00:00:00 2001
+From: qiuyelengyusw <83708132+qiuyelengyusw@users.noreply.github.com>
+Date: Mon, 25 Dec 2023 13:49:10 +0800
+Subject: [PATCH] =?UTF-8?q?Revert=20"=E6=95=B0=E7=BB=84=E7=9A=84=E7=AC=AC?=
+ =?UTF-8?q?=E4=B8=89=E7=A7=8D=E5=A3=B0=E6=98=8E=E6=96=B9=E6=B3=95=E6=95=B0?=
+ =?UTF-8?q?=E7=BB=84=E7=9A=84=E5=85=B6=E4=BB=96=E5=A3=B0=E6=98=8E=E6=96=B9?=
+ =?UTF-8?q?=E6=B3=95=E5=8F=8A=E4=BD=BF=E7=94=A8"?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+This reverts commit 422340d09f1864efa52f1a1a5993bad090a3cbab.
+---
+ 数组/Program.cs | 22 +++-------------------
+ 1 file changed, 3 insertions(+), 19 deletions(-)
+
+diff --git a/数组/Program.cs b/数组/Program.cs
+index 4c54bc0..0e16567 100644
+--- a/数组/Program.cs
++++ b/数组/Program.cs
+@@ -10,28 +10,12 @@ namespace 数组
+     {
+         static void Main(string[] args)
+         {
+-            int[] nums1 = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }; //数组的一种声明方式
+-            for (int j = 0; j < nums1.Length; j++)
+-            {
+-                nums1[j] = j;
+-                Console.WriteLine(nums1[j]);
+-            }
+-            for (int k = nums1.Length - 1; k >= 0; k--) //使用for循环倒序输出数组的值
+-            {
+-                nums1[k] = k;
+-                Console.WriteLine(nums1[k]);
+-
+-            }
+-            Console.WriteLine(nums1[1]);
+-            int[] nums = new int[100]; //这行代码用另一种声明方式，声明了一个长度是10的整数类型的数组
+-            for (int i = 0; i < nums.Length; i++)
++            int[] nums = new int[10]; //这行代码声明了一个长度是10的整数类型的数组
++            for (int i = 0; i < nums.Length; i++) 
+             {
+                 nums[i] = i;
+-                Console.WriteLine(nums[i]);
++                Console.WriteLine(nums[i]); 
+             }
+-            int[] nums2 = new int[] { 1, 2, 3 };
+-            Console.WriteLine(nums2[0]);
+-
+             Console.ReadKey();
+         }
+     }
+-- 
+2.43.0.windows.1
+
