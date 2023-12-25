@@ -12,8 +12,8 @@ namespace 数组的应用练习
         {
             # region 练习一：从一个整数数组中计算出最大值最小值总和以及平均值
             int[] numsOne = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
-            int max = numsOne[0];
-            int min = numsOne[0];
+            int max = numsOne[0];  //int.MinValue;
+            int min = numsOne[0];  //int.MaxValue;
             int sum = 0;
             double Average;
             for (int i = 0; i < numsOne.Length; i++)
