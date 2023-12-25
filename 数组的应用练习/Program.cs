@@ -66,17 +66,16 @@ namespace 数组的应用练习
             #endregion
             Console.WriteLine("------------------------------------------------");
             #region 练习四：将一个字符串数组内的元素进行反转
-            string[] strA = { "钢铁侠","蜘蛛侠","美国队长","绿巨人","创世","分红女巫","黑寡妇","鹰眼" };
-            string strB = null;
+            string[] strA = { "钢铁侠", "蜘蛛侠", "美国队长", "绿巨人", "创世", "分红女巫", "黑寡妇", "鹰眼" };
             for (int i = 0; i < strA.Length / 2; i++) //strA.Length /2 表示数组中元素如果反转，只需要对换的次数是数组中元素个数的1/2
             {
-                strB = strA[i];
-                strA[i] = strA[strA.Length - 1 - i];
-                strA[strA.Length - 1 - i] = strB;                
+                string temp = strA[i];  //先定义一个变量，将数组的第一个元素暂存到这个变量里，
+                strA[i] = strA[strA.Length - 1 - i]; //将对应的元素值赋值给strA[i]
+                strA[strA.Length - 1 - i] = temp;   //将暂存的值strA[i],赋值给刚才对应的互换的元素
             }
             for (int i = 0; i < strA.Length; i++)
             {
-                Console.Write(strA[i]+" ");
+                Console.Write(strA[i] + " "); //依次输出数组中的元素
             }
             Console.ReadKey();
             #endregion
