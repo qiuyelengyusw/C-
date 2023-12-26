@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -70,7 +72,7 @@ namespace while循环联系之异常捕获
             Console.WriteLine("This class's Grade is :{0}", intSum); //将计算得出的总成绩输出到控制台；
             Console.WriteLine("And This class's Grade point average is {0}", intSum / intNumber); //计算平均成绩
             Console.WriteLine("Thanks"); //程序结束!           
-            Console.ReadKey();
+            Console.ReadKey();//暂停程序
 
         }
     }

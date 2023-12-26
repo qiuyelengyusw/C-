@@ -5,3 +5,10 @@ D:\C#\while循环\obj\Debug\while循环.csproj.AssemblyReference.cache
 D:\C#\while循环\obj\Debug\while循环.csproj.CoreCompileInputs.cache
 D:\C#\while循环\obj\Debug\while循环.exe
 D:\C#\while循环\obj\Debug\while循环.pdb
+D:\MyCSaharpCode\C-\while循环\bin\Debug\while循环.exe.config
+D:\MyCSaharpCode\C-\while循环\bin\Debug\while循环.exe
+D:\MyCSaharpCode\C-\while循环\bin\Debug\while循环.pdb
+D:\MyCSaharpCode\C-\while循环\obj\Debug\while循环.csproj.AssemblyReference.cache
+D:\MyCSaharpCode\C-\while循环\obj\Debug\while循环.csproj.CoreCompileInputs.cache
+D:\MyCSaharpCode\C-\while循环\obj\Debug\while循环.exe
+D:\MyCSaharpCode\C-\while循环\obj\Debug\while循环.pdb

@@ -31,7 +31,7 @@ namespace 比较三个数字的大小
             {
                 Console.WriteLine("这三个数中最大的数字是：{0}",numberThree);
             }
-            Console.ReadKey();
+            Console.ReadKey(); //暂停程序
         }
     }
 }
