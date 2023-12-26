@@ -22,6 +22,7 @@ namespace 方法
         /// <returns>将最大值返回</returns>
         public static int GetMax(int n1, int n2)
         {
+            //这里运用了三元表达式
             return n1 > n2 ? n1 : n2; //return有两个作用，一、返回方法中的返回值，二、立即结束方法
         }
     }
