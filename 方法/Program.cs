@@ -11,7 +11,7 @@ namespace 方法
         static void Main(string[] args)
         {
             //计算两个整数之间的最大值
-            Console.WriteLine(Program.GetMax(35,55)); //调用GetMax()方法 如果方法与Main再一个类下，可以省略Program直接调用GetMax()
+            Console.WriteLine(Program.GetMax(35, 55)); //调用GetMax()方法 如果方法与Main再一个类下，可以省略Program直接调用GetMax()
             Console.ReadKey();
         }
         /// <summary>
