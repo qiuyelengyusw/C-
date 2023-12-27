@@ -20,8 +20,9 @@ namespace 方法
         /// <param name="n1">第一个整数</param>
         /// <param name="n2">第二个整数</param>
         /// <returns>将最大值返回</returns>
-        public static int GetMax(int n1, int n2)
+        public static int GetMax(int n1, int n2)  //函数（方法）的声明位置与Main函数平行
         {
+            //这里运用了三元表达式.
             //这里运用了三元表达式
             // return n1 > n2 ? n1 : n2; //return有两个作用，一、返回方法中的返回值，二、立即结束方法
             //
