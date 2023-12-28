@@ -31,7 +31,7 @@ namespace 方法的练习_判断闰年
         public static bool GetRun(int year)
         {
             bool b = (year % 400 == 0) || (year % 4 == 0 && year % 100 != 0); //如果是闰年，则返回true，反之返回flasd
-            return b;
+            return b; //将b的之返回
         }
     }
 }
