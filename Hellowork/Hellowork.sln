@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法的练习_判断闰�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "判断用户输入是否正确", "..\判断用户输入是否正确\判断用户输入是否正确.csproj", "{98A1D36D-80E6-46E6-B55B-F1496A0B8801}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "用方法判断用户输入是否正确", "..\用方法判断用户输入是否正确\用方法判断用户输入是否正确.csproj", "{EF241278-628D-4017-A1AB-B22459B93A9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{98A1D36D-80E6-46E6-B55B-F1496A0B8801}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98A1D36D-80E6-46E6-B55B-F1496A0B8801}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98A1D36D-80E6-46E6-B55B-F1496A0B8801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF241278-628D-4017-A1AB-B22459B93A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF241278-628D-4017-A1AB-B22459B93A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF241278-628D-4017-A1AB-B22459B93A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF241278-628D-4017-A1AB-B22459B93A9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
