@@ -73,6 +73,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法练习之数组", "..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法练习之数组out语句", "..\方法练习之数组out语句\方法练习之数组out语句.csproj", "{7FD5723E-0A94-4F84-A5BE-066323F5F90B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法练习之out判断用户登录", "..\方法练习之out判断用户登录\方法练习之out判断用户登录.csproj", "{6BB137D6-112A-4657-86DD-99131CEA798B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -219,6 +221,10 @@ Global
 		{7FD5723E-0A94-4F84-A5BE-066323F5F90B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FD5723E-0A94-4F84-A5BE-066323F5F90B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FD5723E-0A94-4F84-A5BE-066323F5F90B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB137D6-112A-4657-86DD-99131CEA798B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB137D6-112A-4657-86DD-99131CEA798B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB137D6-112A-4657-86DD-99131CEA798B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB137D6-112A-4657-86DD-99131CEA798B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
