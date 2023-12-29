@@ -23,6 +23,14 @@ namespace 方法练习之数组out语句
             Console.WriteLine("这个数组的平均值是：{0}",intavg);
             Console.ReadKey();
         }
+        /// <summary>
+        /// 计算数组的最大值、最小值、总和、平均值
+        /// </summary>
+        /// <param name="ins">需要计算的数组</param>
+        /// <param name="max">数组的最大值</param>
+        /// <param name="min">数组的最小值</param>
+        /// <param name="sum">总和</param>
+        /// <param name="avg">平均值</param>
         public static void GetMaxMinSumAve(int[] ins, out int max, out int min, out int sum, out int avg)
         {
             sum = 0;   //这里不能在sum 前面使用int sum ，因为上面的out int sum中已经对sum进行了声明
