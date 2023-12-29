@@ -40,15 +40,15 @@ namespace 方法练习之数组out语句
             {
                 if (ins[i] > max) 
                 {
-                    max= ins[i];
+                    max= ins[i]; //最大值
                 }
                 if (ins[i] < min) 
                 {
-                    min= ins[i];    
+                    min= ins[i];    //最小值
                 }
-                sum += ins[i];
+                sum += ins[i];     //总和
             }
-            avg = sum/ins.Length;
+            avg = sum/ins.Length;  //平均值
         }
     }
 }
