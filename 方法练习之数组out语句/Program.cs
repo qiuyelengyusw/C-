@@ -14,14 +14,14 @@ namespace 方法练习之数组out语句
             int intmax; //声明变量，存储out返回的最大值
             int intmin;
             int intsum;
-            int intavg;
+            double dblavg;
             string strB;
             int[] res = { 1, 2, 3,4,5,6,11,20,-2 };
-            GetMaxMinSumAve(res,out intmax,out intmin,out intsum,out intavg,out strB); //调用方法
+            GetMaxMinSumAve(res,out intmax,out intmin,out intsum,out dblavg,out strB); //调用方法
             Console.WriteLine("这个数组中最大值是：{0}",intmax);
             Console.WriteLine("这个数组中最小值是：{0}",intmin);
             Console.WriteLine("这个数组的总和是：{0}",intsum);
-            Console.WriteLine("这个数组的平均值是：{0}",intavg);
+            Console.WriteLine("这个数组的平均值是：{0}",dblavg);
             Console.WriteLine(strB);
             Console.ReadKey();
         }
@@ -33,7 +33,7 @@ namespace 方法练习之数组out语句
         /// <param name="min">数组的最小值</param>
         /// <param name="sum">总和</param>
         /// <param name="avg">平均值</param>
-        public static void GetMaxMinSumAve(int[] ins, out int max, out int min, out int sum, out int avg,out string strA)
+        public static void GetMaxMinSumAve(int[] ins, out int max, out int min, out int sum, out double avg,out string strA)
         {
             sum = 0;   //这里不能在sum 前面使用int sum ，因为上面的out int sum中已经对sum进行了声明
             max = ins[0];
@@ -50,7 +50,7 @@ namespace 方法练习之数组out语句
                 }
                 sum += ins[i];     //总和
             }
-            avg = sum/ins.Length;  //平均值
+            avg = (double)sum/ins.Length;  //平均值
             strA = "Thank You!";
         }
     }
