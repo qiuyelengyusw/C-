@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法的练习", "..\方�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法的练习之数组求和", "..\方法的练习之数组求和\方法的练习之数组求和.csproj", "{8978D090-234D-454E-AEC2-4F81F5102DE4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法练习之数组", "..\方法练习之数组\方法练习之数组.csproj", "{29C723F1-E15C-4609-B1FD-C814DD29947A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{8978D090-234D-454E-AEC2-4F81F5102DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8978D090-234D-454E-AEC2-4F81F5102DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8978D090-234D-454E-AEC2-4F81F5102DE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29C723F1-E15C-4609-B1FD-C814DD29947A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C723F1-E15C-4609-B1FD-C814DD29947A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C723F1-E15C-4609-B1FD-C814DD29947A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C723F1-E15C-4609-B1FD-C814DD29947A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
