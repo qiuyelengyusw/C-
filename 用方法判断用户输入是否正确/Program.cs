@@ -17,7 +17,7 @@ namespace 用方法判断用户输入是否正确
                 string strAge = Console.ReadLine();
                 if (GetNumber(strAge) != 0)          //调用方法来判断用户输入返回的值是否为零，
                 {
-                    if (GetNumber(strAge) <= 20)
+                    if (GetNumber(strAge) <= 20)     //如果用户输入的年龄小于或者等于20
                     {
                         Console.WriteLine("你还是个孩子！");
                         break;
@@ -39,7 +39,6 @@ namespace 用方法判断用户输入是否正确
                 }
             }
             Console.ReadKey();
-
         }
         /// <summary>
         /// 判断用户输入的内容是否合法
@@ -65,6 +64,5 @@ namespace 用方法判断用户输入是否正确
                 }
             }
         }
-
     }
 }
