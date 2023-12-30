@@ -77,6 +77,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法练习之out判断用
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法之ref", "..\方法之ref\方法之ref.csproj", "{4CA1F784-CAB4-4114-B548-EA4965DC2694}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法之params", "..\方法之params\方法之params.csproj", "{F5CB9D26-9EFB-4D8D-92BE-251661999ADB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +233,10 @@ Global
 		{4CA1F784-CAB4-4114-B548-EA4965DC2694}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CA1F784-CAB4-4114-B548-EA4965DC2694}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CA1F784-CAB4-4114-B548-EA4965DC2694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5CB9D26-9EFB-4D8D-92BE-251661999ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5CB9D26-9EFB-4D8D-92BE-251661999ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5CB9D26-9EFB-4D8D-92BE-251661999ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CB9D26-9EFB-4D8D-92BE-251661999ADB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
