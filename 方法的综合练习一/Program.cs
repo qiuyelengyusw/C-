@@ -47,7 +47,7 @@ namespace 方法的综合练习一
         /// <param name="thisNumberOne">第一个数字</param>
         /// <param name="thisNumberTwo">第二个数字</param>
         /// <returns>返回这两个数字的和</returns>
-        public static int JudgeNumber(int thisNumberOne, int thisNumberTwo)
+        public static int JudgeNumber(int thisNumberOne, int thisNumberTwo)  //声明一个方法判断用户输入的数字是否满足要求，并返回两个数的和
         {
             while(true) 
             {
