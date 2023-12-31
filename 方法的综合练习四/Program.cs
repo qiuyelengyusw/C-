@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,7 +12,9 @@ namespace 方法的综合练习四
         static void Main(string[] args)
         {
             Console.WriteLine("请输入你的成绩：");           
-            GetCj(GetIsDouble(Console.ReadLine()));
+           // GetCj(GetIsDouble(Console.ReadLine()));
+            string s = GetLevel(GetIsDouble(Console.ReadLine()));
+            Console.WriteLine(s);   
             Console.ReadKey();
 
         }
@@ -76,6 +79,22 @@ namespace 方法的综合练习四
                 case 0:
                     Console.WriteLine("傻子");
                     break;
+            }
+        }
+        public static string GetLevel(double score)
+        {
+            //string  level = null;
+            switch (score/10) 
+            {
+                case 9:
+                    return "优";
+                case 8:
+                    return "良";
+                case 7:
+                    return "中";
+                case 6:
+                    return "及格";
+                default: return "不及格";
             }
         }
     }
