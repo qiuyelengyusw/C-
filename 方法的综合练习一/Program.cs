@@ -16,8 +16,10 @@ namespace 方法的综合练习一
             Console.WriteLine("Please input the second number:");
             string strNumberTwo =Console.ReadLine();
             int intnumberTwo = GetNumber(strNumberTwo);    //调用方法来判断用户输入是否为数字
-            int res = JudgeNumber(intNumberOne,intnumberTwo);
+            int res = JudgeNumber(ref intNumberOne,ref intnumberTwo);
             Console.WriteLine(res); //调用方法来判第一个数字是否小于第二个数字，并计算两个数字的和
+            int sum = Getres(intNumberOne,intnumberTwo );
+            Console.WriteLine(sum);
             Console.ReadKey();
         }
         /// <summary>
@@ -47,7 +49,7 @@ namespace 方法的综合练习一
         /// <param name="thisNumberOne">第一个数字</param>
         /// <param name="thisNumberTwo">第二个数字</param>
         /// <returns>返回这两个数字的和</returns>
-        public static int JudgeNumber(int thisNumberOne, int thisNumberTwo)  //声明一个方法判断用户输入的数字是否满足要求，并返回两个数的和
+        public static int JudgeNumber(ref int thisNumberOne,ref int thisNumberTwo)  //声明一个方法判断用户输入的数字是否满足要求，并返回两个数的和
         {
             while(true) 
             {
@@ -66,6 +68,21 @@ namespace 方法的综合练习一
                     thisNumberTwo= GetNumber(strTwo);
                 }
             }
+        }
+        /// <summary>
+        /// 求两个整数之间所有整肃的和
+        /// </summary>
+        /// <param name="n1">第一个整数</param>
+        /// <param name="n2">第二个整数</param>
+        /// <returns>返回这两个整数之间所有整数的和</returns>
+        public static int Getres(int n1, int n2)
+        {
+            int sum= 0;
+            for (int i = n1; i <= n2; i++)
+            {
+                sum += i;
+            }
+            return sum;
         }
     }
 }
