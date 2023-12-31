@@ -43,8 +43,7 @@ namespace 方法的综合练习四
         /// </summary>
         /// <param name="dbla">输入的成绩</param>
         public static void  GetCj(double dbla)
-        {
-            string s=null;
+        {           
             switch (Math.Round( dbla / 10))
             {
                 case 9:
