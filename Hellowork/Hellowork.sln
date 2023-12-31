@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法的递归", "..\方�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法的综合练习一", "..\方法的综合练习一\方法的综合练习一.csproj", "{122C69F2-83C1-4730-9450-929AC380886A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法的综合练习二", "..\方法的综合练习二\方法的综合练习二.csproj", "{BC8080B5-C231-4CB2-90BD-86914AF4648B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -255,6 +257,10 @@ Global
 		{122C69F2-83C1-4730-9450-929AC380886A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{122C69F2-83C1-4730-9450-929AC380886A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{122C69F2-83C1-4730-9450-929AC380886A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC8080B5-C231-4CB2-90BD-86914AF4648B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC8080B5-C231-4CB2-90BD-86914AF4648B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC8080B5-C231-4CB2-90BD-86914AF4648B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC8080B5-C231-4CB2-90BD-86914AF4648B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
