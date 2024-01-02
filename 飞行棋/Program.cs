@@ -66,13 +66,13 @@ namespace 飞行棋
         /// </summary>
         public static void DrawMaps()
         {
-            //第一横行
+            #region 第一横行
             for (int i = 0; i < 30; i++)
             {
                 //如果玩家A跟玩家B的坐标相同，画一个“<>”
                 if (PlayerPos[0] == PlayerPos[1] && PlayerPos[1] == i)
                 {
-                    Console.Write("<>");
+                    Console.Write("＜＞");
                 }
                 else if (PlayerPos[0] == i)
                 {
@@ -87,44 +87,41 @@ namespace 飞行棋
                     switch (Maps[i])
                     {
                         case 0:
+                            Console.ForegroundColor = ConsoleColor.Yellow;
                             Console.Write("□");
                             break;
                         case 1:
+                            Console.ForegroundColor = ConsoleColor.Green;
                             Console.Write("⊙");
                             break;
                         case 2:
+                            Console.ForegroundColor = ConsoleColor.Red;
                             Console.Write("☆");
                             break;
                         case 3:
+                            Console.ForegroundColor = ConsoleColor.DarkRed;
                             Console.Write("▲");
                             break;
                         case 4:
+                            Console.ForegroundColor = ConsoleColor.Blue;
                             Console.Write("卐");
                             break;
-                    }
-                    //if (Maps[i] == 0)
-                    //{
-                    //    Console.Write("□");
-                    //}
-                    //if (Maps[i] == 1)
-                    //{
-                    //    Console.Write("⊙");
-                    //}
-                    //if (Maps[i] == 2)
-                    //{
-                    //    Console.Write("☆");
-                    //}
-                    //if (Maps[i] == 3)
-                    //{
-                    //    Console.Write("▲");
-                    //}
-                    //if (Maps[i]==4)
-                    //{
-                    //    Console.Write("卐");
-                    //}
+                    }                    
                 }
 
             }
+            #endregion
+            Console.WriteLine();
+            #region 第一竖行
+            for (int i = 30; i < 35; i++)
+            {
+                for (int j = 0; j < 28; j++)
+                {
+                    Console.Write("*");               
+                }
+                Console.WriteLine();
+            }
+            #endregion
         }
     }
 }
