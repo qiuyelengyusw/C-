@@ -62,65 +62,96 @@ namespace 飞行棋
             }
         }
         /// <summary>
+        /// 画图的方法
+        /// </summary>
+        /// <param name="i"></param>
+        public static void DrawStringMap(int i)
+        {
+            if (PlayerPos[0] == PlayerPos[1] && PlayerPos[1] == i)
+            {
+                //如果玩家A跟玩家B的坐标相同，画一个“$”
+                Console.Write(" $ ");
+            }
+            else if (PlayerPos[0] == i)
+            {
+                Console.Write("Ａ");
+            }
+            else if (PlayerPos[1] == i)
+            {
+                Console.Write("Ｂ");
+            }
+            else
+            {
+                switch (Maps[i])
+                {
+                    case 0:
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                        Console.Write(" # ");
+                        break;
+                    case 1:
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.Write(" @ ");
+                        break;
+                    case 2:
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.Write(" G ");
+                        break;
+                    case 3:
+                        Console.ForegroundColor = ConsoleColor.DarkRed;
+                        Console.Write(" P ");
+                        break;
+                    case 4:
+                        Console.ForegroundColor = ConsoleColor.Blue;
+                        Console.Write(" T ");
+                        break;
+                }
+            }
+        }
+        /// <summary>
         /// 画地图
         /// </summary>
         public static void DrawMaps()
         {
+            Console.WriteLine("图例:幸运轮盘:@ 地雷:G 暂停:P 时空隧道:T");
             #region 第一横行
             for (int i = 0; i < 30; i++)
             {
-                //如果玩家A跟玩家B的坐标相同，画一个“<>”
-                if (PlayerPos[0] == PlayerPos[1] && PlayerPos[1] == i)
-                {
-                    Console.Write("＜＞");
-                }
-                else if (PlayerPos[0] == i)
-                {
-                    Console.Write("Ａ");
-                }
-                else if (PlayerPos[1] == i)
-                {
-                    Console.Write("Ｂ");
-                }
-                else
-                {
-                    switch (Maps[i])
-                    {
-                        case 0:
-                            Console.ForegroundColor = ConsoleColor.Yellow;
-                            Console.Write("□");
-                            break;
-                        case 1:
-                            Console.ForegroundColor = ConsoleColor.Green;
-                            Console.Write("⊙");
-                            break;
-                        case 2:
-                            Console.ForegroundColor = ConsoleColor.Red;
-                            Console.Write("☆");
-                            break;
-                        case 3:
-                            Console.ForegroundColor = ConsoleColor.DarkRed;
-                            Console.Write("▲");
-                            break;
-                        case 4:
-                            Console.ForegroundColor = ConsoleColor.Blue;
-                            Console.Write("卐");
-                            break;
-                    }                    
-                }
-
+                DrawStringMap(i);             
+               
             }
             #endregion
             Console.WriteLine();
             #region 第一竖行
             for (int i = 30; i < 35; i++)
             {
-                for (int j = 0; j < 28; j++)
+                for (int j = 0; j < 29; j++)
                 {
-                    Console.Write("*");               
+                    Console.Write("   ");                   
                 }
+                DrawStringMap(i);
                 Console.WriteLine();
             }
+            #endregion
+            #region 第二横行
+            for (int i = 64; i >= 35; i--)
+            {
+                DrawStringMap(i);
+            }
+            #endregion
+            Console.WriteLine();
+            #region 第二竖行
+            for (int i = 65; i <= 69; i++)
+            {
+                DrawStringMap(i);
+                Console.WriteLine();
+            }
+            #endregion
+            #region 第三横行
+            for (int i = 70; i < 100; i++)
+            {
+                DrawStringMap(i);
+            }
+            Console.WriteLine();
             #endregion
         }
     }

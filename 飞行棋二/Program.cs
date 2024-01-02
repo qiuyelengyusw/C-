@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace 飞行棋
+namespace 飞行棋二
 {
     internal class Program
     {
