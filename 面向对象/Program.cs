@@ -10,7 +10,7 @@ namespace 面向对象
     {
         static void Main(string[] args)
         {
-            Person pername = new Person();
+            Person pername = new Person();    
             pername._name = "张三";
             pername._age = 19;
             pername._gender = '男';
