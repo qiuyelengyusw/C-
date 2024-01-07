@@ -101,6 +101,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "飞行棋", "..\飞行棋\�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "飞行棋二", "..\飞行棋二\飞行棋二.csproj", "{35BA015D-032D-4D9B-8A45-CFFBEDE7D7B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "求1到100之间所有质数的和", "..\求1到100之间所有质数的和\求1到100之间所有质数的和.csproj", "{94D016A6-CF5E-498B-AA3C-651391BB0131}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -303,6 +305,10 @@ Global
 		{35BA015D-032D-4D9B-8A45-CFFBEDE7D7B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35BA015D-032D-4D9B-8A45-CFFBEDE7D7B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35BA015D-032D-4D9B-8A45-CFFBEDE7D7B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94D016A6-CF5E-498B-AA3C-651391BB0131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D016A6-CF5E-498B-AA3C-651391BB0131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D016A6-CF5E-498B-AA3C-651391BB0131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D016A6-CF5E-498B-AA3C-651391BB0131}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
