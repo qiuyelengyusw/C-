@@ -265,7 +265,7 @@ namespace 飞行棋
                         Console.ReadKey(true);
                         break;
                     case 1:
-                        Console.WriteLine("玩家{0}踩到的幸运轮盘，请选择1--交换位置 2--轰炸对方", PlayerNames[playernumber);
+                        Console.WriteLine("玩家{0}踩到的幸运轮盘，请选择1--交换位置 2--轰炸对方", PlayerNames[playernumber]);
                         string strInput = Console.ReadLine();
                         while (strInput != "1" && strInput != "2")
                         {
