@@ -64,10 +64,35 @@ namespace 飞行棋
                 }
                 if (PlayerPos[0]>=99)
                 {
-                    Console.WriteLine("玩家{0}无耻的赢了玩家{1}", PlayerNames[0], PlayerNames[1]);    
+                    Console.WriteLine("玩家{0}无耻的赢了玩家{1}", PlayerNames[0], PlayerNames[1]);
+                    Win();
+                    break;
                 }
+                Console.Clear();
+                GameShow();
+                InitailMap();
+                DrawMaps();                
+                if (Flags[1] == false)
+                {
+                    PlayGame(1);
+                }
+                else
+                {
+                    Flags[1] = false;
+                }
+                if (PlayerPos[1]>=99)
+                {
+                    Console.WriteLine("玩家{0}无耻的赢了玩家{1}", PlayerNames[1], PlayerNames[0]);
+                    Win();
+                    break;
+                }
+                Console.Clear();
+                GameShow();
+                InitailMap();
+                DrawMaps();
             }
             Console.ReadKey();
+
         }
         /// <summary>
         /// 画游戏头
@@ -240,14 +265,14 @@ namespace 飞行棋
                         Console.ReadKey(true);
                         break;
                     case 1:
-                        Console.WriteLine("玩家{0}踩到的幸运轮盘，请选择1--交换位置 2--轰炸对方");
+                        Console.WriteLine("玩家{0}踩到的幸运轮盘，请选择1--交换位置 2--轰炸对方", PlayerNames[playernumber);
                         string strInput = Console.ReadLine();
                         while (strInput != "1" && strInput != "2")
                         {
                             Console.WriteLine("只能输入数字1或者2，请重新输入：");
                             strInput = Console.ReadLine();
                         }
-                        if (strInput != "1")  //选择交换位置
+                        if (strInput == "1")  //选择交换位置
                         {
                             Console.WriteLine("玩家{0}选择与玩家{1}交换位置", PlayerNames[playernumber], PlayerNames[1 - playernumber]);
                             Console.ReadKey(true);
@@ -268,7 +293,7 @@ namespace 飞行棋
                         }
                         break;
                     case 2:
-                        Console.WriteLine("玩家{0}踩到了地雷，后退6格");
+                        Console.WriteLine("玩家{0}踩到了地雷，后退6格", PlayerNames[playernumber]);
                         Console.ReadKey(true);
                         PlayerPos[playernumber] -= 6;
                         ChangePos();
@@ -311,6 +336,24 @@ namespace 飞行棋
             {
                 PlayerPos[1] = 99;
             }
+        }
+        public static void Win()
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("                                     ◆                            ■ ");
+            Console.WriteLine("                  ■                ◆                  ■           ■ ");
+            Console.WriteLine("      ■■■■ ■   ■  ■              ◆  ■            ■    ■           ■");
+            Console.WriteLine("      ■    ■  ■   ■            ◆    ■            ■    ■           ■ ");
+            Console.WriteLine("      ■    ■ ■■■■■■■■■■■■     ■■■■■■■■■■■■       ■    ■           ■ ");
+            Console.WriteLine("      ■■■■ ■      ■                 ●■●          ■    ■           ■");
+            Console.WriteLine("      ■    ■      ■                ● ■ ●         ■    ■           ■");
+            Console.WriteLine("      ■    ■ ■■■■■■■■■■■■●        ●  ■   ●       ■    ■           ■ ");
+            Console.WriteLine("      ■■■■ ■      ■             ●    ■     ●     ■    ■           ■");
+            Console.WriteLine("      ■    ■      ■           ●      ■       ●   ■    ■           ■");
+            Console.WriteLine("      ■    ■      ■         ●        ■           ■    ■           ■ ");
+            Console.WriteLine("     ■     ■      ■                  ■             ●  ■           ■ ");
+            Console.WriteLine("    ■    ■■ ■■■■■■■■■■■■■■           ■                ●           ●");
+            Console.ResetColor();
         }
     }
 }
