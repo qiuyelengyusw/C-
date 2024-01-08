@@ -13,6 +13,8 @@ namespace 飞行棋
         public static int[] PlayerPos = new int[2];
         //声明一个静态字段，存储玩家姓名
         public static string[] PlayerNames = new string[2];
+        //声明一个静态数组保存玩家的状态，默认是false
+        public static bool[] Flags = new bool[2];
         static void Main(string[] args)
         {
             GameShow();
@@ -39,8 +41,18 @@ namespace 飞行棋
                 PlayerNames[1] = Console.ReadLine();
             }
             #endregion
+            //玩家姓名输入完毕后，先清空屏幕
+            Console.Clear();
+            //重新调用游戏头
+            GameShow();
+            Console.WriteLine("{0}的士兵用A来表示", PlayerNames[0]);
+            Console.WriteLine("{0}的士兵应B来表示", PlayerNames[1]);
+            //初始化地图
             InitailMap();
+            //画地图
             DrawMaps();
+            //如果玩家A与玩家B都不在终点的时候，游戏才可以进行
+
             Console.ReadKey();
         }
         /// <summary>
@@ -178,6 +190,43 @@ namespace 飞行棋
             }
             Console.WriteLine();
             #endregion
+        }
+        /// <summary>
+        /// 玩游戏
+        /// </summary>
+        /// <param name="playernumber"></param>
+        public static void PlayGame(int playernumber)
+        {
+            Random r = new Random();
+            int rNumber=r.Next(1,7);
+            Console.WriteLine("{0}开始掷骰子", PlayerNames[playernumber]);
+            Console.ReadKey(true);
+            Console.WriteLine("玩家{0}掷出了{1}",PlayerNames[playernumber],rNumber);
+            PlayerPos[playernumber] += rNumber;
+            //调用方法判断玩家坐标是否在地图范围之内
+            ChangePos();
+        }
+        /// <summary>
+        /// 当玩家坐标发生变化的是后调用，防止玩家坐标超出地图范围
+        /// </summary>
+        public static void ChangePos()
+        {
+            if (PlayerPos[0]<0)
+            {
+                PlayerPos[0] = 0;
+            }
+            if (PlayerPos[0]>=99)
+            {
+                PlayerPos[0] = 99;
+            }
+            if (PlayerPos[1]<0)
+            {
+                PlayerPos[1] = 0;
+            }
+            if (PlayerPos[1]>=99)
+            {
+                PlayerPos[1] = 99;
+            }
         }
     }
 }
