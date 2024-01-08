@@ -11,9 +11,34 @@ namespace 飞行棋
         public static int[] Maps = new int[100];
         //声明一个静态字段，存储玩家的坐标
         public static int[] PlayerPos = new int[2];
+        //声明一个静态字段，存储玩家姓名
+        public static string[] PlayerNames = new string[2];
         static void Main(string[] args)
         {
             GameShow();
+            #region 输入玩家姓名
+            Console.WriteLine("请输入玩家A的姓名:");
+            PlayerNames[0] =Console.ReadLine();
+            while (PlayerNames[0]=="")
+            {
+                Console.WriteLine("玩家的姓名不能为空！请重新输入:");
+                PlayerNames[1] =Console.ReadLine();
+            }
+            Console.WriteLine("请输入玩家B的姓名:");
+            PlayerNames[1]=Console.ReadLine();
+            while (PlayerNames[1]=="" || PlayerNames[0] == PlayerNames[1])
+            {
+                if (PlayerNames[1]=="")
+                {
+                    Console.WriteLine("玩家的姓名不能为空！请重新输入:");                   
+                }
+                else
+                {
+                    Console.WriteLine("玩家的姓名不能相同!请重新输入:");
+                }
+                PlayerNames[1] = Console.ReadLine();
+            }
+            #endregion
             InitailMap();
             DrawMaps();
             Console.ReadKey();
