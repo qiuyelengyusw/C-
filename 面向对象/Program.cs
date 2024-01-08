@@ -12,7 +12,7 @@ namespace 面向对象
         {
             Person pername = new Person();    //声明一个类
             pername.Name = "张三";
-            pername.Age = 19;
+            pername.Age = -19;
             pername.Gender = '男';
             pername.SQ();      //调用类
             Console.ReadKey();

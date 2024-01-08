@@ -19,7 +19,14 @@ namespace 面向对象
         public int Age
         {
             get { return _age; }
-            set { _age = value; }   
+            set 
+            {
+                if (value < 0 || value > 100)
+                {
+                    value= 0;
+                }                
+                _age = value; 
+            }   
         }
         private char _gender;
         public char Gender
