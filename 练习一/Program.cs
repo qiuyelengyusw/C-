@@ -10,7 +10,7 @@ namespace 练习一
     {
         static void Main(string[] args)
         {
-            Ticket k = new Ticket(251);
+            Ticket k = new Ticket(101);
             k.ShowTicker();
             Console.ReadKey();
         }
