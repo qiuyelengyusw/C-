@@ -29,7 +29,11 @@ namespace 构造函数
         {
             //构造函数重载的另外一种写法
         }
-
+        //析构函数，用于立即释放内存，清理垃圾
+        ~Student()
+        {
+            
+        }
         private string _name;
         public string Name
         {
