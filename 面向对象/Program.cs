@@ -16,6 +16,12 @@ namespace 面向对象
             pername.Gender = '中';
             pername.SQ();      //调用类
             Console.ReadKey();
+            Person per1 = new Person();
+            per1.Name = "李四";
+            per1.Age = 19;
+            per1.Gender = '女';
+            per1.SQ();
+            Console.ReadKey();  
         }
     }
 }
