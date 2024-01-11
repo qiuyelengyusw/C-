@@ -19,11 +19,15 @@ namespace 构造函数
             this.English = english;
         }
         //构造函数可以有重载,
-        public Student(string name,int age,char gender) 
+        public Student(string name,int age,char gender)
         {
-            this.Name=name;
+            this.Name = name;
             this.Age = age;
             this.Gender = gender;
+        }
+        public Student(string name,int chinese,int match,int english):this(name,0,'c',chinese,match,english) 
+        {
+            //构造函数重载的另外一种写法
         }
 
         private string _name;
@@ -104,6 +108,10 @@ namespace 构造函数
         public void SayHello() 
         {
             Console.WriteLine("我的名字是:{0},我今年{1}岁了，我是{2}生",this.Name,this.Age,this.Gender);
+        }
+        public void SayHello2() 
+        {
+            Console.WriteLine("我叫{0},我的语文成绩是:{1},我的数学成绩是:{2},我的英语成绩是:{3}",this.Name,this.Chinese,this.Match,this.English);
         }
     }
 }

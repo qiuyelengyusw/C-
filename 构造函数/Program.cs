@@ -34,6 +34,8 @@ namespace 构造函数
             Student Zs = new Student("张三",-15,'男',100,100,100);
             Zs.ShowScore();
             Console.WriteLine();
+            Zs.SayHello2();
+            Console.WriteLine();
             Student Ls = new Student("李四",19,'中',85,95,90);
             Ls.ShowScore(); 
             Ls.SayHello(); //构造函数的重载
