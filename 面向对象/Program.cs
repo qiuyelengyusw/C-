@@ -10,7 +10,7 @@ namespace 面向对象
     {
         static void Main(string[] args)
         {
-            Person pername = new Person();    //声明一个类
+            Person pername = new Person();    //创建类的对象
             pername.Name = "张三";
             pername.Age = -19;
             pername.Gender = '中';
