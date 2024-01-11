@@ -16,6 +16,8 @@ namespace 静态与非静态的区别
             set { _name = value; }
         }
         private int _age;
+        public int Age
+        { get { return _age; } set {  _age = value; } }
         public void M1()
         {
             Console.WriteLine("我是非静态的方法");

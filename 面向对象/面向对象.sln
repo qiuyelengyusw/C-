@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "面向对象", "面向对�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "静态与非静态的区别", "..\静态与非静态的区别\静态与非静态的区别.csproj", "{5410A4A7-1A2C-4DAB-8096-1456444569A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "构造函数", "..\构造函数\构造函数.csproj", "{5A626384-0F39-4E68-A599-97E08447C2A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5410A4A7-1A2C-4DAB-8096-1456444569A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5410A4A7-1A2C-4DAB-8096-1456444569A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5410A4A7-1A2C-4DAB-8096-1456444569A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A626384-0F39-4E68-A599-97E08447C2A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A626384-0F39-4E68-A599-97E08447C2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A626384-0F39-4E68-A599-97E08447C2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A626384-0F39-4E68-A599-97E08447C2A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
