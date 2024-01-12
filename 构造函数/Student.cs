@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace 构造函数
 {
-    internal class Student
+    public class Student
     {
         //构造函数
         public Student(string name,int age,char gender,int chinese,int match,int english) 
