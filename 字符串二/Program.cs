@@ -17,6 +17,11 @@ namespace 字符串二
             }
             Console.WriteLine(strA);
             Console.ReadKey();
+            //Substring 截取字符串
+            string strB = "把所有想的念的错的痛的都放在心房，行李箱里装不下我想要去的远方";
+            strB = strB.Substring(10,4);
+            Console.WriteLine(strB);    
+            Console.ReadKey();
         }
     }
 }
