@@ -19,6 +19,14 @@ namespace 字符串二
             Console.ReadKey();
             //Substring 截取字符串
             string strB = "把所有想的念的错的痛的都放在心房，行李箱里装不下我想要去的远方";
+            if(strB.StartsWith("把所有")&&strB.EndsWith("远方"))
+            {
+                Console.WriteLine("是的");
+            }
+            else
+            {
+                Console.WriteLine("不是的");
+            }
             strB = strB.Substring(10,4);
             Console.WriteLine(strB);    
             Console.ReadKey();
