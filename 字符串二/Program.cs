@@ -27,9 +27,15 @@ namespace 字符串二
             {
                 Console.WriteLine("不是的");
             }
+            //indexof()
+            int index = strB.IndexOf('心');
+            Console.WriteLine("心"+"第一次出现的地方是{0}",index);
             strB = strB.Substring(10,4);
             Console.WriteLine(strB);    
             Console.ReadKey();
+
+           
+
         }
     }
 }
