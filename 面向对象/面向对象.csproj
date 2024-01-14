@@ -50,5 +50,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\构造函数\构造函数.csproj">
+      <Project>{5a626384-0f39-4e68-a599-97e08447c2a1}</Project>
+      <Name>构造函数</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using 构造函数; //添加命名空间
 namespace 面向对象
 {
     internal class Program
@@ -21,7 +21,10 @@ namespace 面向对象
             per1.Age = 19;
             per1.Gender = '女';
             per1.SQ();
-            Console.ReadKey();  
+            Console.ReadKey();
+            //引用构造函数项目中得student类
+            Student k = new Student("王五",18,'男');
+            k.ShowScore();
         }
     }
 }
