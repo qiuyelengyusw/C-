@@ -120,7 +120,7 @@ namespace 字符串练习一
                 Console.Write(namesB[i]);
             }
             Console.WriteLine();
-            Console.WriteLine(namesA);  
+            //Console.WriteLine(namesA);  
             Console.ReadKey ();
         }
     }
