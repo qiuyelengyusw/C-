@@ -46,6 +46,12 @@ namespace 字符串一
             string[] strB = strA.Split(new char[] { '-' }, StringSplitOptions.RemoveEmptyEntries);
             Console.WriteLine("{0}年{1}月{2}日", strB[0], strB[1], strB[2]);
             Console.ReadKey();
+
+            //join()
+            string[] strFive = { "张三", "李四", "王五", "赵六", "田七" };
+            string strSix = string.Join("|", strFive);
+            Console.WriteLine(strSix);
+            Console.ReadKey();
         }
     }
 }
