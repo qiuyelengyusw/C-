@@ -93,8 +93,7 @@ namespace 字符串练习一
                 {                    
                     Console.WriteLine("第{0}次出现e的位置是{1}",countB,i);
                     countB++;
-                }
-               
+                }               
             }
             Console.ReadKey();
 

@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "字符串二", "..\字符�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "字符串练习一", "..\字符串练习一\字符串练习一.csproj", "{67561C01-D6A3-41A0-9ADF-03BF09D82C5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "继承", "..\继承\继承.csproj", "{01F52090-40B2-482A-AD9A-A3B15BBA28E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{67561C01-D6A3-41A0-9ADF-03BF09D82C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67561C01-D6A3-41A0-9ADF-03BF09D82C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67561C01-D6A3-41A0-9ADF-03BF09D82C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F52090-40B2-482A-AD9A-A3B15BBA28E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F52090-40B2-482A-AD9A-A3B15BBA28E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F52090-40B2-482A-AD9A-A3B15BBA28E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F52090-40B2-482A-AD9A-A3B15BBA28E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
