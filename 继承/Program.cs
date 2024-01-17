@@ -18,6 +18,9 @@ namespace 继承
             student.Tea();
             student.Ff();
             Console.ReadKey();
+            Derver der = new Derver("王五", 36, '男', 15);
+            der.Der();
+            Console.ReadKey ();
         }
     }
 }

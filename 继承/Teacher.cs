@@ -14,7 +14,7 @@ namespace 继承
             get { return _salary; }
             set { _salary = value; }
         }
-        public Teacher(string name, int age, char gerden, double salary) : base(name, age, gerden)
+        public Teacher(string name, int age, char gerden, double salary) : base(name, age, gerden)//base:显式调用父类中的构造函数
         {
 
             this.Salary = salary;
