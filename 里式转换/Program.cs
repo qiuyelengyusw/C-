@@ -10,12 +10,12 @@ namespace 里式转换
     {
         static void Main(string[] args)
         {
-            Person[] pers = new Person[10];
-            Random r = new Random();
+            Person[] pers = new Person[10]; //定义一个person父类的数组，存放子类
+            Random r = new Random();  //随机数
             for (int i = 0; i < pers.Length; i++) 
             {
                 int ran=r.Next(1,7);
-                switch (ran) //1-6
+                switch (ran) //1-6   //利用随机数给Person[]数组赋值
                 {
                     case 1:
                         pers[i]=new Person();
