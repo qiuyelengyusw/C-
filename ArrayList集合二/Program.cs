@@ -22,6 +22,7 @@ namespace ArrayList集合二
             list.Reverse();       //反转集合中的元素
             list.Insert(0, "插入的0");  //在指定的下标插入元素
             list.InsertRange(2, new int[] { 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 });   //在指定的位置插入集合
+            list.Contains(1);//判断集合中是否包含指定的元素，返回布尔类型的值
             for (int i = 0; i < list.Count; i++)
             {
                 Console.WriteLine(list[i]);
