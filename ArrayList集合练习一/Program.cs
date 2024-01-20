@@ -19,7 +19,7 @@ namespace ArrayList集合练习一
             {
                 dblSum += (double)list[i];
             }
-            Console.WriteLine("这个集合内数字的总和是{0},平均值是{1}", dblSum, Math.Round(dblSum / list.Count, 2));
+            Console.WriteLine("这个集合内数字的总和是{0},平均值是{1}", dblSum, Math.Round(dblSum / list.Count, 2)); //Math.Round(),四舍五入
             Console.ReadKey();
         }
     }
