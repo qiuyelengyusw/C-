@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayList集合的长度", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayList集合练习一", "..\ArrayList集合练习一\ArrayList集合练习一.csproj", "{E0C0FAB2-2ADC-49D7-B8AB-1A67885FB870}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayList集合练习二", "..\ArrayList集合练习二\ArrayList集合练习二.csproj", "{BE1A6303-4794-4183-85FF-B989EBE35D4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{E0C0FAB2-2ADC-49D7-B8AB-1A67885FB870}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0C0FAB2-2ADC-49D7-B8AB-1A67885FB870}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0C0FAB2-2ADC-49D7-B8AB-1A67885FB870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE1A6303-4794-4183-85FF-B989EBE35D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE1A6303-4794-4183-85FF-B989EBE35D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE1A6303-4794-4183-85FF-B989EBE35D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE1A6303-4794-4183-85FF-B989EBE35D4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
