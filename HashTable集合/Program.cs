@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Data.Odbc;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,7 +21,7 @@ namespace HashTable集合
             ht.Add(false, "错误");
             foreach (var item in ht.Keys)
             {
-                Console.WriteLine(ht[item]);
+                Console.WriteLine("{0}>>>>>>>>>>>>>>>>>>>>>{1}", item, ht[item]);
             }
             Console.ReadKey();
         }
