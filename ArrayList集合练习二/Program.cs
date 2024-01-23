@@ -18,13 +18,13 @@ namespace ArrayList集合练习二
             for (int i = 0; i < 10; i++) 
             {
                 int number=r.Next(0,10);
-                if(!list.Contains(number))
+                if(!list.Contains(number))  //如果集合中没有这个随机数
                 {
-                    list.Add(number);
+                    list.Add(number);     //将这个随机数添加到集合中
                 }
-                else
+                else //如果集合中已经存在相同的随机数
                 {
-                    i--;
+                    i--; //将I-1，重新计算循环次数
                 }
             }
             for (int i = 0;i < list.Count;i++) 
