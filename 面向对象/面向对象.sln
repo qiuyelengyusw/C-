@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayList集合练习二", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTable集合", "..\HashTable集合\HashTable集合.csproj", "{485DB044-F8C3-47C2-9858-AF5F47FD657C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "foreach循环", "..\foreach循环\foreach循环.csproj", "{39CA1534-506C-43E3-B804-48037AE45ABE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{485DB044-F8C3-47C2-9858-AF5F47FD657C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{485DB044-F8C3-47C2-9858-AF5F47FD657C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{485DB044-F8C3-47C2-9858-AF5F47FD657C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39CA1534-506C-43E3-B804-48037AE45ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39CA1534-506C-43E3-B804-48037AE45ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39CA1534-506C-43E3-B804-48037AE45ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39CA1534-506C-43E3-B804-48037AE45ABE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
