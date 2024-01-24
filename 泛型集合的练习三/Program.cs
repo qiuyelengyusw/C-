@@ -12,10 +12,12 @@ namespace 泛型集合的练习三
         {
             //统计 Welcom to china中每个字符出现的次数，不考虑大小写
             string str = "Welcom to China";
-            str = str.ToLower();
-            str = str.Trim();
+            str = str.Replace(" ","");    
+            str=str.ToLower();
+            Console.WriteLine(str);
+            Console.ReadKey();
             Dictionary<char, int> dic = new Dictionary<char, int>();
-            for (int i = 0; i < str.Length; i++)            
+            for (int i = 0; i < str.Length; i++)          
             {
                 
                 if (dic.ContainsKey(str[i])) //如果dic中已经包含了这个键
