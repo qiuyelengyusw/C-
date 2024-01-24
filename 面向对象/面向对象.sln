@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "泛型集合的练习二", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "泛型集合的练习三", "..\泛型集合的练习三\泛型集合的练习三.csproj", "{CE28724D-F5F5-458C-B65B-6FC84E9AB61F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStream文件流", "..\FileStream文件流\FileStream文件流.csproj", "{71CF2F92-9772-45FA-99F0-DF7B71E2EC10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{CE28724D-F5F5-458C-B65B-6FC84E9AB61F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE28724D-F5F5-458C-B65B-6FC84E9AB61F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE28724D-F5F5-458C-B65B-6FC84E9AB61F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71CF2F92-9772-45FA-99F0-DF7B71E2EC10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71CF2F92-9772-45FA-99F0-DF7B71E2EC10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71CF2F92-9772-45FA-99F0-DF7B71E2EC10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71CF2F92-9772-45FA-99F0-DF7B71E2EC10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
