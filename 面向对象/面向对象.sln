@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "foreach循环", "..\foreach
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "中英文转换", "..\中英文转换\中英文转换.csproj", "{4F62C316-02A0-459B-A944-DCA0E73A80AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Path类", "..\Path类\Path类.csproj", "{DB408070-27D3-4561-B195-90D2AB7DACCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File类", "..\File类\File类.csproj", "{5DADA64F-2F00-4C5E-BAB0-E1039EBC9825}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +115,14 @@ Global
 		{4F62C316-02A0-459B-A944-DCA0E73A80AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F62C316-02A0-459B-A944-DCA0E73A80AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F62C316-02A0-459B-A944-DCA0E73A80AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB408070-27D3-4561-B195-90D2AB7DACCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB408070-27D3-4561-B195-90D2AB7DACCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB408070-27D3-4561-B195-90D2AB7DACCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB408070-27D3-4561-B195-90D2AB7DACCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DADA64F-2F00-4C5E-BAB0-E1039EBC9825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DADA64F-2F00-4C5E-BAB0-E1039EBC9825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DADA64F-2F00-4C5E-BAB0-E1039EBC9825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DADA64F-2F00-4C5E-BAB0-E1039EBC9825}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
