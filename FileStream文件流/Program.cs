@@ -22,6 +22,15 @@ namespace FileStream文件流
             fsread.Dispose();
             Console.WriteLine(s);
             Console.ReadKey();
+            //使用FileStream来写入数据
+            using (FileStream fswrite = new FileStream(@"F:\session1.log",FileMode.OpenOrCreate,FileAccess.Write))
+            {
+                string str = "这是写入的数据";
+                byte[] buffer1=Encoding.Default.GetBytes(str);
+                fswrite.Write(buffer1, 0, buffer1.Length);
+                Console.WriteLine("数据已写入");
+                Console.ReadKey();
+            }
         }
     }
 }
