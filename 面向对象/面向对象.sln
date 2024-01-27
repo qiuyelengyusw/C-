@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多态之虚方法", "..\�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "抽象类", "..\抽象类\抽象类.csproj", "{6DF9FA72-25D4-44FC-8B2A-9C78C863CA4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "抽象类练习", "..\抽象类练习\抽象类练习.csproj", "{BBC70990-5395-46F5-AAB6-EF3858D89508}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +179,10 @@ Global
 		{6DF9FA72-25D4-44FC-8B2A-9C78C863CA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DF9FA72-25D4-44FC-8B2A-9C78C863CA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DF9FA72-25D4-44FC-8B2A-9C78C863CA4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBC70990-5395-46F5-AAB6-EF3858D89508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBC70990-5395-46F5-AAB6-EF3858D89508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBC70990-5395-46F5-AAB6-EF3858D89508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBC70990-5395-46F5-AAB6-EF3858D89508}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
