@@ -16,7 +16,6 @@ namespace 抽象类练习
             cp.CpuRead();
             cp.CpuWrite();
             Console.ReadKey();
-
         }
     }
 }
