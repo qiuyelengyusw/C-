@@ -22,7 +22,7 @@ namespace Winform应用
         {
             this.tima.Stop();  //再窗体初始化得时候，让timer停止
         }
-        string stra = "✩✬✭✩✬✩✬✭✩✬✩✬✭✩✬✩✬✭✩✬"; //定义一个字符串
+        string stra = "☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★"; //定义一个字符串
         private void tima_Tick(object sender, EventArgs e)
         {           
             stra = stra.Substring(1) + stra.Substring(0, 1);    //将字符串从第二个元素截取，然后将第一个元素连接       
