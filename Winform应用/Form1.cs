@@ -44,7 +44,7 @@ namespace Winform应用
         private void timb_Tick(object sender, EventArgs e)
         {
             label1.Text = DateTime.Now.ToString();
-            if(DateTime.Now.Hour==16&&DateTime.Now.Minute==27)
+            if(DateTime.Now.Hour==18&&DateTime.Now.Minute==06)
             {
                 SoundPlayer sp=new SoundPlayer();
                 sp.SoundLocation = "1.wav";

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34407.89
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform应用", "Winform应用.csproj", "{AC3CA102-376C-43CB-98FE-F3C35C6B1C4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDI窗体应用", "..\MDI窗体应用\MDI窗体应用.csproj", "{C9B98807-7AEB-43D0-A173-F8B9F1B6E36A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AC3CA102-376C-43CB-98FE-F3C35C6B1C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC3CA102-376C-43CB-98FE-F3C35C6B1C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC3CA102-376C-43CB-98FE-F3C35C6B1C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9B98807-7AEB-43D0-A173-F8B9F1B6E36A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B98807-7AEB-43D0-A173-F8B9F1B6E36A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B98807-7AEB-43D0-A173-F8B9F1B6E36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B98807-7AEB-43D0-A173-F8B9F1B6E36A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
