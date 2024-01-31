@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -36,7 +37,21 @@ namespace Winform应用
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.tima.Stop();//停止
+            //this.tima.Stop();//停止
+            this.timb.Stop();            
+        }
+
+        private void timb_Tick(object sender, EventArgs e)
+        {
+            label1.Text = DateTime.Now.ToString();
+            if(DateTime.Now.Hour==16&&DateTime.Now.Minute==27)
+            {
+                SoundPlayer sp=new SoundPlayer();
+                sp.SoundLocation = "1.wav";
+                sp.Play();
+                tima.Start();
+                timb.Stop();
+            }
         }
     }
 }
