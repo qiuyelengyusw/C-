@@ -44,8 +44,10 @@ namespace 打开及保存文件对话框
 
         private void 退出ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Close();//关闭窗体
-            this.Dispose();
+            //这是最彻底的退出方式，不管什么线程都被强制退出，把程序结束的很干净。 参数0：代表程序正常退出；参数1：代表程序非正常退出。
+            System.Environment.Exit(0); 
+            //this.Close();//关闭窗体
+            //this.Dispose();
         }
 
         private void 保存ToolStripMenuItem_Click(object sender, EventArgs e)
