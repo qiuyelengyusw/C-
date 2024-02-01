@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform应用", "Winform应
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDI窗体应用", "..\MDI窗体应用\MDI窗体应用.csproj", "{C9B98807-7AEB-43D0-A173-F8B9F1B6E36A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "打开及保存文件对话框", "..\打开及保存文件对话框\打开及保存文件对话框.csproj", "{CA187CCA-A621-4146-9FA9-655C62ABAB14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C9B98807-7AEB-43D0-A173-F8B9F1B6E36A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9B98807-7AEB-43D0-A173-F8B9F1B6E36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9B98807-7AEB-43D0-A173-F8B9F1B6E36A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA187CCA-A621-4146-9FA9-655C62ABAB14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA187CCA-A621-4146-9FA9-655C62ABAB14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA187CCA-A621-4146-9FA9-655C62ABAB14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA187CCA-A621-4146-9FA9-655C62ABAB14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

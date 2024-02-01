@@ -65,7 +65,7 @@
             // 
             this.总想排列ToolStripMenuItem.Name = "总想排列ToolStripMenuItem";
             this.总想排列ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
-            this.总想排列ToolStripMenuItem.Text = "总想排列";
+            this.总想排列ToolStripMenuItem.Text = "纵向排列";
             this.总想排列ToolStripMenuItem.Click += new System.EventHandler(this.总想排列ToolStripMenuItem_Click);
             // 
             // frm1
