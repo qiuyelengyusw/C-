@@ -24,7 +24,7 @@ namespace 打开及保存文件对话框
             ofd.Title = "请选择要打开的文本文件";    //设置对话框的标题
             ofd.Multiselect = true; //设置对话框是否可以多选
             ofd.InitialDirectory = @"E:\";    //设置对话框的初始目录
-            ofd.Filter = "文本文件|*.txt";      //设置对话框的文件类型            
+            ofd.Filter = "文本文件|*.txt";     //设置对话框的文件类型            
             ofd.ShowDialog(); //显示对话框           
             string path = ofd.FileName;  //获取再打开对话框中选中的文件的路径
             if (path == "")
