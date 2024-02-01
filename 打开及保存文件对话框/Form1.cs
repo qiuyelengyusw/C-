@@ -27,7 +27,7 @@ namespace 打开及保存文件对话框
             ofd.Filter = "文本文件|*.txt";      //设置对话框的文件类型            
             ofd.ShowDialog(); //显示对话框           
             string path = ofd.FileName;  //获取再打开对话框中选中的文件的路径
-            if(path=="")
+            if (path == "")
             {
                 MessageBox.Show("请正确选择文件");
                 return;
@@ -37,12 +37,38 @@ namespace 打开及保存文件对话框
                 byte[] buffer = new byte[1024 * 1024 * 5];
                 int r = fsread.Read(buffer, 0, buffer.Length);
                 txta.Text = Encoding.Default.GetString(buffer, 0, r);
+                fsread.Close();
+                fsread.Dispose();
             }
         }
 
         private void 退出ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();//关闭窗体
+            this.Dispose();
+        }
+
+        private void 保存ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog fssave = new SaveFileDialog();
+            fssave.Title = "保存文件";
+            fssave.InitialDirectory = @"E\";
+            fssave.Filter = "文本文件|*.txt";
+            fssave.ShowDialog();
+            string path = fssave.FileName;
+            if (path == "")
+            {
+                MessageBox.Show("文件名不能为空");
+                return;
+            }
+            using (FileStream fswrite = new FileStream(path, FileMode.OpenOrCreate, FileAccess.Write))
+            {
+                byte[] buffer = Encoding.Default.GetBytes(txta.Text);
+                fswrite.Write(buffer, 0, buffer.Length);
+                fswrite.Close();
+                fswrite.Dispose();
+            }
+            MessageBox.Show("文件保存成功");
         }
     }
 }
