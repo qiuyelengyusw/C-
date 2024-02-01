@@ -30,6 +30,7 @@
         {
             this.buta = new System.Windows.Forms.Button();
             this.but2 = new System.Windows.Forms.Button();
+            this.but3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buta
@@ -52,11 +53,22 @@
             this.but2.UseVisualStyleBackColor = true;
             this.but2.Click += new System.EventHandler(this.but2_Click);
             // 
+            // but3
+            // 
+            this.but3.Location = new System.Drawing.Point(237, 157);
+            this.but3.Name = "but3";
+            this.but3.Size = new System.Drawing.Size(75, 23);
+            this.but3.TabIndex = 2;
+            this.but3.Text = "退出";
+            this.but3.UseVisualStyleBackColor = true;
+            this.but3.Click += new System.EventHandler(this.but3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(591, 209);
+            this.Controls.Add(this.but3);
             this.Controls.Add(this.but2);
             this.Controls.Add(this.buta);
             this.Name = "Form1";
@@ -70,6 +82,7 @@
 
         private System.Windows.Forms.Button buta;
         private System.Windows.Forms.Button but2;
+        private System.Windows.Forms.Button but3;
     }
 }
 

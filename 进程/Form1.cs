@@ -48,5 +48,10 @@ namespace 进程
             p.StartInfo = processStartInfo;
             p.Start();  
         }
+
+        private void but3_Click(object sender, EventArgs e)
+        {
+            System.Environment.Exit(0);//彻底退出程序，释放资源
+        }
     }
 }
