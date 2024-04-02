@@ -145,12 +145,7 @@ namespace 施工监理费基价计算
             {
                 e.Handled = true;
                 MessageBox.Show("不能输入小数点！");
-            }
-            //    if(int.Parse(txtZK.Text)>100)
-            //    {
-            //        e.Handled = true;
-            //        MessageBox.Show("不能输入大于100的数字！请重新输入！");
-            //    }
+            }           
         }
 
         private void label4_Click(object sender, EventArgs e)
