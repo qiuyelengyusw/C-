@@ -146,11 +146,11 @@ namespace 施工监理费基价计算
                 e.Handled = true;
                 MessageBox.Show("不能输入小数点！");
             }
-        //    if(int.Parse(txtZK.Text)>100)
-        //    {
-        //        e.Handled = true;
-        //        MessageBox.Show("不能输入大于100的数字！请重新输入！");
-        //    }
+            //    if(int.Parse(txtZK.Text)>100)
+            //    {
+            //        e.Handled = true;
+            //        MessageBox.Show("不能输入大于100的数字！请重新输入！");
+            //    }
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -165,8 +165,8 @@ namespace 施工监理费基价计算
 
         private void button2_Click(object sender, EventArgs e)
         {
-           
-            if(txtJlf.Text=="")
+
+            if (txtJlf.Text == "")
             {
                 MessageBox.Show("请先进行折前计算！");
                 txtGczj.Focus();
@@ -178,10 +178,10 @@ namespace 施工监理费基价计算
             }
             else
             {
-                double dbla=double.Parse(txtJlf.Text);
+                double dbla = double.Parse(txtJlf.Text);
                 double inta = double.Parse(txtZKl.Text);
                 double dblzk = (dbla * inta) / 100;
-                txtZK.Text=dblzk.ToString();
+                txtZK.Text = dblzk.ToString();
             }
         }
     }
