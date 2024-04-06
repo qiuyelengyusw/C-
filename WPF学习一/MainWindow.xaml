@@ -22,7 +22,7 @@
                 <DropShadowBitmapEffect Direction="0" ShadowDepth="4" Color="Black" Opacity="0.6" />
             </Button.BitmapEffect>
         </Button>
-        <Button Width="200" Height="60" Content="圆角按钮" FontSize="30" Foreground="White" Background="green">
+        <Button Width="200" Height="60" Content="圆角按钮" FontSize="30" Foreground="White" Background="green" Click="Button_Click_1">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="6"/>
