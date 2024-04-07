@@ -35,5 +35,15 @@
                 <DropShadowEffect Direction="0" ShadowDepth="12" Color="Black" Opacity="0.7"/>
             </Button.Effect>
         </Button>
+        <Button Content="透明按钮" FontSize="40" FontWeight="Bold" Opacity="0.8" Width="300" Height="60" Foreground="Blue" Margin="250,160,250,380" FontFamily="Cascadia Code">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="8"/>
+                </Style>
+            </Button.Resources>
+            <Button.Effect>
+                <DropShadowEffect Direction="10" ShadowDepth="9" Opacity="0.8" Color="Black"/>
+            </Button.Effect>
+        </Button>
     </Grid>
 </Window>
