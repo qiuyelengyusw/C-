@@ -35,5 +35,10 @@ namespace WPF学习一
             MessageBox.Show("点击确定退出程序");
             this.Close();
         }
+
+        private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            //this.DragMove();
+        }
     }
 }
