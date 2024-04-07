@@ -27,14 +27,13 @@ namespace WPF学习一
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            System.Environment.Exit(System.Environment.ExitCode);
-            {
+            System.Environment.Exit(System.Environment.ExitCode);          
 
-                this.Close();
-            }
+            this.Close();
+          
         }
         private void Button_Click_1(object sender, RoutedEventArgs e)
-         {
+        {
                 MessageBox.Show("点击确定退出程序");         
 
                 System.Environment.Exit(System.Environment.ExitCode);
@@ -45,7 +44,7 @@ namespace WPF学习一
         private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
                 DragMove();
-         }
+        }
 
             //private void Button_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
             //{
