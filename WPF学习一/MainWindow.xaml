@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:WPF学习一"
         mc:Ignorable="d"       
         Title="MainWindow" Height="500" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="None" Opacity="10" AllowsTransparency="True"  MouseLeftButtonDown="Window_MouseLeftButtonDown" >
+    <!--Title="MainWindow" Height="500" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="None" Opacity="10" AllowsTransparency="True" Background="#99092CEF" BorderBrush="White" BorderThickness="1.5" MouseLeftButtonDown="Window_MouseLeftButtonDown" >-->
     <!--下面的代码也能实现窗体的透明以及圆角效果-->
     <Window.Style>
         <Style TargetType="Window">
