@@ -27,12 +27,14 @@ namespace WPF学习一
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            System.Environment.Exit(System.Environment.ExitCode);
             this.Close();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("点击确定退出程序");
+            System.Environment.Exit(System.Environment.ExitCode);
             this.Close();
         }
     }
