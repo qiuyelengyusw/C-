@@ -4,10 +4,25 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF学习一"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="500" Width="800" WindowStartupLocation="CenterScreen">
+        mc:Ignorable="d"       
+        Title="MainWindow" Height="500" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="None" Opacity="10" AllowsTransparency="True"  MouseLeftButtonDown="Window_MouseLeftButtonDown" >
+    <!--Title="MainWindow" Height="500" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="None" Opacity="10" AllowsTransparency="True" Background="#99092CEF" BorderBrush="White" BorderThickness="1.5" MouseLeftButtonDown="Window_MouseLeftButtonDown" >-->
+    <!--下面的代码也能实现窗体的透明以及圆角效果-->
+    <Window.Style>
+        <Style TargetType="Window">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Window">
+                        <Border CornerRadius="15" Background="#99092CEF" Opacity="10" BorderBrush="White" BorderThickness="1.2">
+                            <ContentPresenter/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Style>
     <Grid Height="600" Width="800">
-        <Button Content="确   认" Width="150" Height="60" FontWeight="Bold" FontSize="20" Click="Button_Click" Margin="325,335,325,205" Background="DarkBlue" Foreground="White" >
+        <Button Content="确   认" Width="150" Height="60" FontWeight="Bold" FontSize="20" Click="Button_Click" Margin="325,380,325,160" Background="DarkBlue" Foreground="White"  >
             <Button.Template>
                 <ControlTemplate TargetType="Button" >
                     <Border BorderBrush="{TemplateBinding Control.BorderBrush}" BorderThickness="1" CornerRadius="9">
@@ -33,6 +48,16 @@
             </Button.BitmapEffect>-->
             <Button.Effect>
                 <DropShadowEffect Direction="0" ShadowDepth="12" Color="Black" Opacity="0.7"/>
+            </Button.Effect>
+        </Button>
+        <Button Content="透明按钮" FontSize="40" Opacity="0.8" Width="300" Height="60" Foreground="CadetBlue" Margin="250,160,250,380" FontFamily="Cascadia Code SemiBold" Background="#190000FF">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="8"/>
+                </Style>
+            </Button.Resources>
+            <Button.Effect>
+                <DropShadowEffect Direction="10" ShadowDepth="6" Opacity="0.8" Color="Black"/>
             </Button.Effect>
         </Button>
     </Grid>

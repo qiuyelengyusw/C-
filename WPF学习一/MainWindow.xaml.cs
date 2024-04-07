@@ -26,16 +26,35 @@ namespace WPF学习一
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
+<<<<<<< HEAD
         {
             System.Environment.Exit(System.Environment.ExitCode);
+=======
+        {           
+            System.Environment.Exit(0);           
+>>>>>>> 21d4eb9f2bd2d058d574b9fcc391594a95139931
             this.Close();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("点击确定退出程序");
+<<<<<<< HEAD
             System.Environment.Exit(System.Environment.ExitCode);
+=======
+            System.Environment.Exit(System.Environment.ExitCode);            
+>>>>>>> 21d4eb9f2bd2d058d574b9fcc391594a95139931
             this.Close();
+        }
+
+        private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            DragMove();
+        }
+
+        private void Button_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+
         }
     }
 }
