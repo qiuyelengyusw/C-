@@ -38,7 +38,12 @@ namespace WPF学习一
 
         private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            //this.DragMove();
+            DragMove();
+        }
+
+        private void Button_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+
         }
     }
 }

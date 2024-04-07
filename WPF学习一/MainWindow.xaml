@@ -5,9 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF学习一"
         mc:Ignorable="d"       
-        Title="MainWindow" Height="500" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="None" Opacity="10" AllowsTransparency="True" Background="#4C87AAD8" BorderBrush="White" BorderThickness="1.5" >
+        Title="MainWindow" Height="500" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="None" Opacity="10" AllowsTransparency="True"  MouseLeftButtonDown="Window_MouseLeftButtonDown" >
+    <!--下面的代码也能实现窗体的透明以及圆角效果-->
+    <Window.Style>
+        <Style TargetType="Window">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Window">
+                        <Border CornerRadius="15" Background="#99092CEF" Opacity="10" BorderBrush="White" BorderThickness="1.2">
+                            <ContentPresenter/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Style>
     <Grid Height="600" Width="800">
-        <Button Content="确   认" Width="150" Height="60" FontWeight="Bold" FontSize="20" Click="Button_Click" Margin="325,380,325,160" Background="DarkBlue" Foreground="White" >
+        <Button Content="确   认" Width="150" Height="60" FontWeight="Bold" FontSize="20" Click="Button_Click" Margin="325,380,325,160" Background="DarkBlue" Foreground="White"  >
             <Button.Template>
                 <ControlTemplate TargetType="Button" >
                     <Border BorderBrush="{TemplateBinding Control.BorderBrush}" BorderThickness="1" CornerRadius="9">
