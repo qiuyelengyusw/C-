@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WPF学习一
+namespace WPF学习二
 {
     /// <summary>
     /// MainWindow.xaml 的交互逻辑
@@ -24,24 +24,5 @@ namespace WPF学习一
         {
             InitializeComponent();
         }
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            System.Environment.Exit(System.Environment.ExitCode);
-
-            this.Close();
-        }
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("点击确定退出程序");
-
-            System.Environment.Exit(System.Environment.ExitCode);
-
-            this.Close();
-        }
-        private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            DragMove();
-        }
     }
 }
-
