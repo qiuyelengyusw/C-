@@ -7,14 +7,27 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <Window.Resources>
-        <Style TargetType="Button">
-            <Setter Property="Background" Value="blue"/>
+        <Style  TargetType="Button">
+            <Setter Property="Background" Value="Beige"/>
             <Setter Property="FontSize" Value="30"/>
-
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Margin" Value="200,-300,200,50"/>
+        </Style>
+        <Style x:Key="ClearStyle" TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
+            <Setter Property="Background" Value="Red"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Margin" Value="80"/>
+        </Style>
+        <Style x:Key="QuitStyle" TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
+            <Setter Property="Background" Value="Yellow"/>
+            <Setter Property="Foreground" Value="Red"/>
+            <Setter Property="Margin" Value="60"/>
         </Style>
     </Window.Resources>
     <StackPanel>
-        <Button Content="登录" Width="200" Height="50"/>
-        <Button Content="退出" Width="200" Height="50"/>
+        <Button Style="{StaticResource ClearStyle}" Content="登录"/>
+        <Button Style="{StaticResource QuitStyle}" Content="退出"/>
+        <Button Content="取消" />
     </StackPanel>
 </Window>
