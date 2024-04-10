@@ -6,20 +6,15 @@
         xmlns:local="clr-namespace:WPF学习二"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
-    <Grid ShowGridLines="True">
-        <!--分行-->
-        <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-        <!--分列-->
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <Button Grid.Row="0" Grid.Column="0" Background="PaleVioletRed"/>
-        <Button Grid.Row="1" Grid.Column="2" Background="Yellow"/>
-        
-    </Grid>
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="blue"/>
+            <Setter Property="FontSize" Value="30"/>
+
+        </Style>
+    </Window.Resources>
+    <StackPanel>
+        <Button Content="登录" Width="200" Height="50"/>
+        <Button Content="退出" Width="200" Height="50"/>
+    </StackPanel>
 </Window>
