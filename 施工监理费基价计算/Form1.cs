@@ -17,12 +17,12 @@ namespace 施工监理费基价计算
             InitializeComponent();
         }
 
-        private void txtGczj_KeyPress(object sender, KeyPressEventArgs e)
+        private void txtGczj_KeyPress(object sender, KeyPressEventArgs e) //工程总价文本框按键事件
         {
             //判断按键是不是要输入的类型。
-            if (((int)e.KeyChar < 48 || (int)e.KeyChar > 57) && (int)e.KeyChar != 8 && (int)e.KeyChar != 46)
+            if (((int)e.KeyChar < 48 || (int)e.KeyChar > 57) && (int)e.KeyChar != 8 && (int)e.KeyChar != 46) //判断输入的字符是否为数字
             {
-                e.Handled = true;
+                e.Handled = true; //如果不是，则不处理该事件，即不显示该字符
             }
             if ((int)e.KeyChar == '0')//判断首位是否为零
             {
@@ -164,19 +164,19 @@ namespace 施工监理费基价计算
             if (txtJlf.Text == "")
             {
                 MessageBox.Show("请先进行折前计算！");
-                txtGczj.Focus();
+                txtGczj.Focus();  //将光标移至工程总价文本框
             }
             else if (txtZKl.Text == "")
             {
                 MessageBox.Show("请输入折扣率！");
-                txtZKl.Focus();
+                txtZKl.Focus(); //将光标移至折扣率文本框
             }
             else
             {
-                double dbla = double.Parse(txtJlf.Text);
-                double inta = double.Parse(txtZKl.Text);
-                double dblzk = (dbla * inta) / 100;
-                txtZK.Text = dblzk.ToString();
+                double dbla = double.Parse(txtJlf.Text); //将折前监理费转换为double类型
+                double inta = double.Parse(txtZKl.Text); //将折扣率转换为double类型
+                double dblzk = (dbla * inta) / 100; //计算折扣后的监理费
+                txtZK.Text = dblzk.ToString();  // 将折扣后的监理费显示在折扣监理费文本框
             }
         }
     }
