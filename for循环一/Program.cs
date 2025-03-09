@@ -18,10 +18,10 @@ namespace for循环一
             //用whil循环实现这段代码的功能
             //
             int i = 1;
-            while (i <= 100)
+            while (i <= 100) //当i小于等于100时执行循环体while循环
             {
-                Console.WriteLine(i);
-                i++;
+                Console.WriteLine(i); //输出i的值
+                i++;    //i自增1
             }
             Console.ReadKey();
         }
