@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "综合学习", "综合学习.csproj", "{F13964D2-5D8F-491A-8624-0FD01EB8D19F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "循环语句", "..\循环语句\循环语句.csproj", "{086AB067-09FE-4074-A4CB-03D130078F3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F13964D2-5D8F-491A-8624-0FD01EB8D19F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13964D2-5D8F-491A-8624-0FD01EB8D19F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13964D2-5D8F-491A-8624-0FD01EB8D19F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13964D2-5D8F-491A-8624-0FD01EB8D19F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086AB067-09FE-4074-A4CB-03D130078F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086AB067-09FE-4074-A4CB-03D130078F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086AB067-09FE-4074-A4CB-03D130078F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086AB067-09FE-4074-A4CB-03D130078F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88EBD3DD-7D61-4F66-B38D-A7B9FC2491F3}
+	EndGlobalSection
+EndGlobal

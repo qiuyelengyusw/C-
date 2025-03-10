@@ -24,6 +24,11 @@ namespace for循环一
                 i++;    //i自增1
             }
             Console.ReadKey();
+            for (int j = 1; j <= 100; j++)
+            {
+                Console.WriteLine("这是第{0}次循环,\"j\" 的值现在为{1}", j, j );               
+            }
+            Console.ReadKey();
         }
     }
 }
