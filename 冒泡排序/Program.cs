@@ -24,12 +24,12 @@ namespace 冒泡排序
             }
             #endregion
             #region 方法二：使用for循环嵌套的方法
-            for (int i = 0; i < ints.Length - 1; i++)
+            for (int i = 0; i < ints.Length - 1; i++)  //外层循环控制排序趟数
             {
-                for (int j = 0; j < ints.Length - 1 - i; j++)
+                for (int j = 0; j < ints.Length - 1 - i; j++) //内层循环控制每一趟排序多少次
                 {
 
-                    if (ints[j] > ints[j + 1])
+                    if (ints[j] > ints[j + 1]) //如果前一个元素大于后一个元素，则交换两个元素的位置
                     {
                         int temp = ints[j];
                         ints[j] = ints[j + 1];
