@@ -131,7 +131,7 @@ namespace 施工监理费基价计算
             //判断按键是不是要输入的类型。
             if (((int)e.KeyChar < 48 || (int)e.KeyChar > 57) && (int)e.KeyChar != 8 && (int)e.KeyChar != 46)
             {
-                e.Handled = true;
+                e.Handled = true; //如果不是，则不处理该事件，即不显示该字符
             }
             if ((int)e.KeyChar == '0')//判断首位是否为零
             {
@@ -141,11 +141,39 @@ namespace 施工监理费基价计算
                     MessageBox.Show("0不能在第一位！");
                 }
             }
-            if ((int)e.KeyChar == '.')
+            //if ((int)e.KeyChar == '.')
+            //{
+            //    e.Handled = true;
+            //    MessageBox.Show("不能输入小数点！");
+            //} 
+            if ((int)e.KeyChar == 46)
             {
-                e.Handled = true;
-                MessageBox.Show("不能输入小数点！");
-            }           
+                if (txtZKl.TextLength <= 0) // //小数点不能在第一位
+                {
+                    e.Handled = true;
+                    MessageBox.Show("小数点不能在第一位！");
+                }
+                else
+                {
+                    float f;
+                    float oldf;
+                    bool b1 = false;
+                    bool b2 = false;
+                    b1 = float.TryParse(txtZKl.Text, out oldf);
+                    b2 = float.TryParse(txtZKl.Text + e.KeyChar.ToString(), out f);
+                    if (b2 == false)
+                    {
+                        if (b1 == true)
+                        {
+                            e.Handled = true;
+                        }
+                        else
+                        {
+                            e.Handled = false;
+                        }
+                    }
+                }
+            }
         }
 
         private void label4_Click(object sender, EventArgs e)

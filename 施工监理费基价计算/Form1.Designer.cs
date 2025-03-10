@@ -133,7 +133,7 @@
             this.txtZKl.Font = new System.Drawing.Font("微软雅黑", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.txtZKl.ForeColor = System.Drawing.SystemColors.Highlight;
             this.txtZKl.Location = new System.Drawing.Point(464, 242);
-            this.txtZKl.MaxLength = 2;
+            this.txtZKl.MaxLength = 4;
             this.txtZKl.Multiline = true;
             this.txtZKl.Name = "txtZKl";
             this.txtZKl.Size = new System.Drawing.Size(247, 46);
