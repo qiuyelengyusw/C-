@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34407.89
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "施工监理费基价计算", "施工监理费基价计算.csproj", "{50F4DE14-9EFC-46C5-A2B5-B18CA08C2B0A}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "监理费用计算器", "..\监理费用计算器\监理费用计算器.vdproj", "{1FDB7023-84D8-09BA-EF92-BB2074A66082}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{50F4DE14-9EFC-46C5-A2B5-B18CA08C2B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50F4DE14-9EFC-46C5-A2B5-B18CA08C2B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50F4DE14-9EFC-46C5-A2B5-B18CA08C2B0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FDB7023-84D8-09BA-EF92-BB2074A66082}.Debug|Any CPU.ActiveCfg = Debug
+		{1FDB7023-84D8-09BA-EF92-BB2074A66082}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
