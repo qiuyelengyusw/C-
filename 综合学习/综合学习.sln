@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "结构和枚举", "..\结�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "数组复习", "..\数组复习\数组复习.csproj", "{2D30903E-F69B-4769-9E9B-B15A29AD8B73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法复习", "..\方法复习\方法复习.csproj", "{23A1BF22-5FE8-4844-B5E6-5B6851988DAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2D30903E-F69B-4769-9E9B-B15A29AD8B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D30903E-F69B-4769-9E9B-B15A29AD8B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D30903E-F69B-4769-9E9B-B15A29AD8B73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23A1BF22-5FE8-4844-B5E6-5B6851988DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A1BF22-5FE8-4844-B5E6-5B6851988DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A1BF22-5FE8-4844-B5E6-5B6851988DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A1BF22-5FE8-4844-B5E6-5B6851988DAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
