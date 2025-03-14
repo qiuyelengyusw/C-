@@ -58,7 +58,7 @@
         /// 静态方法，求两个整数的最大值
         public static int Max(int a, int b)
         {
-            return a > b ? a : b;
+            return a > b ? a : b; //三元运算符
         }
         /// <summary>
         /// 非静态方法，求两个整数的最大值
