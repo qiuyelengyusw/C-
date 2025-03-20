@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "数组复习", "..\数组�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法复习", "..\方法复习\方法复习.csproj", "{23A1BF22-5FE8-4844-B5E6-5B6851988DAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "判断闰年的方法", "..\判断闰年的方法\判断闰年的方法.csproj", "{FF30DBFF-EF23-44C8-9752-889AAAD4600D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{23A1BF22-5FE8-4844-B5E6-5B6851988DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23A1BF22-5FE8-4844-B5E6-5B6851988DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23A1BF22-5FE8-4844-B5E6-5B6851988DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF30DBFF-EF23-44C8-9752-889AAAD4600D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF30DBFF-EF23-44C8-9752-889AAAD4600D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF30DBFF-EF23-44C8-9752-889AAAD4600D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF30DBFF-EF23-44C8-9752-889AAAD4600D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
