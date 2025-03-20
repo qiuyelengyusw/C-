@@ -18,17 +18,12 @@
             Console.ReadKey();
 
         }
-<<<<<<< HEAD
-
         /// <summary>
         /// 判断是否是闰年
         /// </summary>
         /// <param name="year"></param>
-        /// <returns>返回布尔值</returns>
-=======
-        
-        
->>>>>>> origin/master
+        /// <returns>返回布尔值</returns>              
+
         public static bool IsLeapYear(int year)
         {
             if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0)
